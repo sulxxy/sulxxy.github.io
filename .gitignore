@@ -1,5 +1,6 @@
 .DS_Store
 Thumbs.db
+_config.yml
 db.json
 *.log
 node_modules/
