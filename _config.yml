@@ -78,7 +78,7 @@ pagination_dir: page
  #hexo-generator-feed
  #hexo-generator-sitemap
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: nextT
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
