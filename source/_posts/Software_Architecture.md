@@ -36,7 +36,7 @@ There're 3 parts in Blackboard style:
 e.g. Clipboard in Microsoft Office
 
 ## Virtual machine
-A virtual machine provides a virtual environment which shields the complex details under them. That means, virtual machine has a great cross-platform feature.  JVM is a typical virtual machine. All of java programs are running on the JVM instead of the physical machine. That why there's no keyword **sizeof** in Java. All of types take up the same memory from the pointer of programmers. JVM is responsible for the memory management. We don't have to care about it. When we type command **java -c**, we can get a byte code file. This file is delivered to JVM and interpreted by it.  
+A virtual machine provides a virtual environment which shields the complex details under them. That means, virtual machine has a great cross-platform feature.  JVM is a typical virtual machine. All of java programs are running on the JVM instead of the physical machine. That why there's no keyword **sizeof** in Java. All of types take up the same memory from the point of programmers. JVM is responsible for the memory management. We don't have to care about it. When we type command **java -c**, we can get a byte code file. This file is delivered to JVM and interpreted by it.  
 
 ## Event system
 Quora is a kind of event system. On Quora, we can star someone else. For example, I focused a professor. Once he answered some questions, I can get the notification. This operation was done by the system instead of the professor. The professor just needs to publish his content, he doesn't have to notify people who are staring him one by one. 
@@ -94,18 +94,19 @@ We mainly talked about the following  kinds of tactics:
 ## Availability tactics
 Keep fault from becoming failure or at least bound the affects of the fault and make repair possible.
 1. Fault detection
-We can use ping/echo to achieve this goal. For example, a system consists of a monitor component and many other components. The monitor component pings every other component, and then other components send back an echo to the monitor component. The monitor component detects errors and faults according to the delay. 
-
-Also, the heartbeat is useful for fault detection. If we use heartbeat, the monitor component will ping other components periodically.
-At the same time, the exception mechanism in high level programming language is also a useful way to detect errors and faults.
+	We can use ping/echo to achieve this goal. For example, a system consists of a monitor component and many other components. The monitor component pings every other component, and then other components send back an echo to the monitor component. The monitor component detects errors and faults according to the delay. 
+	
+	Also, the heartbeat is useful for fault detection. If we use heartbeat, the monitor component will ping other components periodically.
+	
+	At the same time, the exception mechanism in high level programming language is also a useful way to detect errors and faults.
 2. Fault recovery
-In order to recovery from fault, we can use data redundancy strategy. That means, we use two or more machines to fulfill a mission. Normally, we get the result from the machine which calculates fast. However, when this machine goes wrong, the other machines can substitute it immediately. 
-
-Another strategy is to set checkpoint periodically or at some critical point. For example, when we use Microsoft Word, the program can save our documents automatically every 5 minutes. Once our computer gets wrong, Microsoft word can roll back to the latest checkpoint and restore from there.
+	In order to recovery from fault, we can use data redundancy strategy. That means, we use two or more machines to fulfill a mission. Normally, we get the result from the machine which calculates fast. However, when this machine goes wrong, the other machines can substitute it immediately. 
+	
+	Another strategy is to set checkpoint periodically or at some critical point. For example, when we use Microsoft Word, the program can save our documents automatically every 5 minutes. Once our computer gets wrong, Microsoft word can roll back to the latest checkpoint and restore from there.
 3. Fault prevention
-There's an old saying in China, *I cannot fight against you, but I can stay away from you*. Sometimes, we can remove a component of a system from the operation to undergo some activities to prevent anticipated failures.
-
-Another way is to use transactions. A task can only have two states: **Not Started** and **Finished**. In database, we often use this kind of method. This can simplify the steps to recovery from fault and make the database more stable.
+	There's an old saying in China, *I cannot fight against you, but I can stay away from you*. Sometimes, we can remove a component of a system from the operation to undergo some activities to prevent anticipated failures.
+	
+	Another way is to use transactions. A task can only have two states: **Not Started** and **Finished**. In database, we often use this kind of method. This can simplify the steps to recovery from fault and make the database more stable.
 
 ## Modifiability tactics
 Control the time and the cost when implementing or testing a change.
@@ -142,10 +143,10 @@ IDE, set breakpoint
 ---
 1. ATAM: Architecture Trade-off Analysis Method
 Purpose: make a trade off to find:
-	1. Risk
-	2. Non-risk
-	3. Sensitivity-point
-	4. Tradeoffs
+	1. Risk: May damage some quality attributes
+	2. Non-risk: Improve quality attributes
+	3. Sensitivity-point: a small change can make a great difference
+	4. Tradeoffs: incluence one more attributes
 2. Utility tree
 From left to right: Utility -> Quality attributes -> Detailed quality attributes -> Scenario
 

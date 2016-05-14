@@ -28,7 +28,7 @@ The **project** operation is a unary operation that returns its argument relatio
 3. The union operation
 4. The set-difference operation
 5. The Cartesian-product operation
-The **Cartesian-product** operation, denoted by a cross, allows us to combine information from any two relations. We write the Cartesian product of relations r1 and r2 as re \* r2. [TODO MathType]
+The **Cartesian-product** operation, denoted by a cross, allows us to combine information from any two relations. We write the Cartesian product of relations r1 and r2 as r1 \* r2. [TODO MathType]
 6. The rename operation
 [TODO]
 7. The set-intersection operation
@@ -49,7 +49,7 @@ The **Cartesian-product** operation, denoted by a cross, allows us to combine in
 # Transactions
 ---
 ## Transaction Concept
-A **tansaction** is a **unit** of program execution that accesses and possibly updates various data items.
+A **transaction** is a **unit** of program execution that accesses and possibly updates various data items.
 
 To ensure integrity of the data, we require that the database system maintain the following properties of the transactions:
 1. **Atomicity**. Either all operations of the transaction are reflected properly in the database, or none are.
@@ -121,7 +121,7 @@ The **entity-relationship(E-R)** data model was developed to facilitate database
 3. Attributes
 	For each attribute, there is a set of permitted values, called the **domain** of that attribute. For example, the domain of attribute scores in the records might be the set of all numbers ranging from 0 to 100.
 	An attribute, as used in the E-R model, can be characterized by the following attribute types.
-	- **Simple** and **composite** attributes. For instance, *student_id* is a simple attribute which cannot be divided into subparts. **Composite** attribute,s, on the other hands, can be divided into subparts. For example, an attribute *name* could be structured as a composite attribute consisting of *first_Oname*, *middle_initial* and *last_name*. 
+	- **Simple** and **composite** attributes. For instance, *student_id* is a simple attribute which cannot be divided into subparts. **Composite** attribute,s, on the other hands, can be divided into subparts. For example, an attribute *name* could be structured as a composite attribute consisting of *first_name*, *middle_initial* and *last_name*. 
 	- **Single-valued** and **multivalued** attributes. Single-value attributes have a single value for a particular entity. For example, a student can only have one *student_id*. There may be instances where an attribute has a set of values for a specific entity. For example, a student may have zero, one, or several phone numbers.
 	- **Derived** attribute. The value for this type of attribute can be derived from the values of other related attributes or entities. For example, *student* entity set has an attribute *age* that indicates the student's age. If the *student* entity set also has an attribute *date_of_birth*, we can calculate *age* from *date_of_birth* and the current date.
 
