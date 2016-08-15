@@ -1,4 +1,4 @@
-title: Data Communication adn Computer Network
+title: Data Communication and Computer Network
 date: 2016-05-01 15:02:32
 tags: [Suumary]
 ---

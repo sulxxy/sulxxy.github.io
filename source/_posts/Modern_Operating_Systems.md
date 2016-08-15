@@ -90,12 +90,12 @@ There are 2 drawbacks:
 	2. It's very hard to get some parallelism in a system.
 2. Address space
 	An address space is the set of addresses that a process can use to address memory. Each process has its own address space, independent of those belonging to other processes. 
-	In order to dealing with memory overload, there are two approaches, **swapping** and **virtual memory**.
+	In order to deal with memory overload, there are two approaches, **swapping** and **virtual memory**.
 	1. Swapping
 		Swapping consists of bringing in each process in its entirety, running it for a while, then putting it back on the disk.
 		There are 2 ways to manage free memory:
-			- Bitmaps
-			- Free lists
+		- Bitmaps
+		- Free lists
 		Drawback: Swapping can waste a lot of CPU time during swapping out and swapping in.
 	2. Virtual memory
 		More often, we use virtual memory.
@@ -177,7 +177,7 @@ Deadlock can be defined formally as follows:
 ## Deadlock Detection
 [TODO Resource graph]
 
-## Deadlock prevention
+## Deadlock Prevention
 1. Mutual exclusion: Spool everything
 2. Hold and wait: Request all resources initially
 3. No preemption: Take resources away
