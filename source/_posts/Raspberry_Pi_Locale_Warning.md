@@ -1,6 +1,6 @@
 title: Fix the Perl warning setting locale failed on Raspberry Pi
 date: 2016-08-15 10:29:38
-tags: [RaspberryPi, Embedded System]
+tags: [Raspberry Pi, Embedded System]
 ---
 
 When installing some packages on Raspbian, there's always a Perl warning message like this:
