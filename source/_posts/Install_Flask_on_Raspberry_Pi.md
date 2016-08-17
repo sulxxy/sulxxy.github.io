@@ -29,9 +29,9 @@ To deal with this problem, we need to correct the system time of the Raspbian. N
 {% codeblock %}
 $ sudo ntpd -s -d
 {% endcodeblock %}
-If it is still wrong time, we can force to set time through:
+If this does not work, we can force to set time through:
 {% codeblock %}
-s$ sudo date --s="2016-08-16 22:46:09"
+$ sudo date --s="2016-08-16 22:46:09"
 {% endcodeblock %}
 
 In the end, we can add some available ntp server(inside China) like this:
