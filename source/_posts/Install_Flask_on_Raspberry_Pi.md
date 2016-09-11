@@ -34,7 +34,7 @@ If this does not work, we can force to set time through:
 $ sudo date --s="2016-08-16 22:46:09"
 {% endcodeblock %}
 
-In the end, we can add some available ntp server(inside China) like this:
+In the end, we can add some available ntp servers(inside China) like this:
 {% codeblock %}
 $ sudo vi /etc/ntp.conf
 {% endcodeblock %}
