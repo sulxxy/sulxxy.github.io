@@ -1,6 +1,6 @@
 title: Multimedia
 date: 2016-05-03 19:27:12
-tags: [Summary]
+categories: Curriculum Summary
 ---
 
 # Description

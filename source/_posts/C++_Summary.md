@@ -1,6 +1,7 @@
 title: C++ Summary
 date: 2016-01-26 10:09:29 
-tags: [C++, Summary]
+categories: Curriculum Summary
+tags: [C++]
 ---
 
 # PART I: Built-in types and basic facilities

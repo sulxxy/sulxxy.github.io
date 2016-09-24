@@ -1,5 +1,6 @@
 title: /usr/bin/find Argument list too long
 date: 2016-04-30 09:42:21
+categories: Technique
 tags: [Find, Shell, Linux]
 ---
 

@@ -1,6 +1,7 @@
 title: Database
 date: 2016-04-27 20:39:23
-tags: [Summary]
+categories: Curriculum Summary
+tags: [Database]
 ---
 
 # Description

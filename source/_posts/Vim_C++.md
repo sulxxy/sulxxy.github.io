@@ -1,5 +1,6 @@
 title: Vim之C++补全
 date: 2014-07-31 15:45:12
+categories: Technique
 tags: [Vim]
 ---
 

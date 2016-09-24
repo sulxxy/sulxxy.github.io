@@ -1,6 +1,7 @@
 title: JAVA technology
 date: 2016-05-01 19:43:54
-tags: [JAVA, Summary]
+categories: Curriculum Summary
+tags: [JAVA]
 ---
 
 # Description

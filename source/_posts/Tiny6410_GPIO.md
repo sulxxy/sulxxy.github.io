@@ -1,5 +1,6 @@
 title: Tiny6410 Note 1 -- GPIO
 date: 2015-06-15 09:02:43
+categories: Technique
 tags: [Embedded Systems, Tiny6410]
 ---
 

@@ -1,5 +1,6 @@
 title: Sphinx--Frontend分析
 date: 2015-09-02 19:54:19
+categories: Technique
 tags: [ Sphinx, DOCKS, NLP ]
 ---
 

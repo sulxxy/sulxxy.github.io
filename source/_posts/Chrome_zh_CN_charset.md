@@ -1,5 +1,6 @@
 title: Debian7.5折腾笔记——Chrome中文乱码问题
 date: 2014-07-08 08:34:49
+categories: Technique
 tags: [Chrome, Linux, Debian]
 ---
 

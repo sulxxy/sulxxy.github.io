@@ -1,5 +1,6 @@
 title: Debian中文输入法问题
 date: 2014-07-08 10:03:45
+categories: Technique
 tags: [Debian]
 ---
 

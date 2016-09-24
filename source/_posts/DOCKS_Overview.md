@@ -1,5 +1,6 @@
 title: DOCKS项目的简单分析
 date: 2015-08-18 16:23:56
+categories: Technique
 tags: [DOCKS, NLP ]
 ---
 

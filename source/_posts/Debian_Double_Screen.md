@@ -1,5 +1,6 @@
 title: Debian 7 双屏配置
 date: 2014-07-23 09:28:33
+categories: Technique
 tags: [Debian]
 ---
 

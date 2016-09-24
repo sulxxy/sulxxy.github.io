@@ -1,5 +1,6 @@
 title: Fix Type Error when installing flask onto Raspbian
 date: 2016-08-16 22:38:34
+categories: Technique
 tags: [Raspberry Pi, Embedded Systems]
 ---
 

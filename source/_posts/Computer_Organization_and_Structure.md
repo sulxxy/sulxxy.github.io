@@ -1,6 +1,6 @@
 title: Computer Organization and Structures
 date: 2016-02-01 10:23:01 
-tags: [Summary]
+categories: Curriculum Summary
 ---
 
 # Data Representation

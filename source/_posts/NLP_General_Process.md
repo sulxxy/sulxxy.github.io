@@ -1,5 +1,6 @@
 title: Basic Concepts of Speech
 date: 2016-04-14 15:23:42
+categories: Technique
 tags: [NLP, Sphinx]
 ---
 

@@ -1,5 +1,6 @@
 title: Git的一些基本用法
 date: 2014-09-27 21:50:08
+categories: Technique
 tags: [Git]
 ---
 

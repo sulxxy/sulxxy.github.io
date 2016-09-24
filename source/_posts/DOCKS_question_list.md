@@ -1,5 +1,6 @@
 title: DOCKS Question list
 date: 2015-08-30 10:44:01
+categories: Technique
 tags: [ DOCKS, NLP ]
 ---
  

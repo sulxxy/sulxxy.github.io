@@ -1,5 +1,6 @@
 title: BB-Black利用Debian主机进行上网
 date: 2015-03-22 09:50:54
+categories: Technique
 tags: [Embedded Systems]
 ---
 

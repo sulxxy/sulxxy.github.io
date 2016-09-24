@@ -1,5 +1,6 @@
 title: DOCKS中对声音采集部分的优化
 date: 2015-08-30 10:35:40
+categories: Technique
 tags: [ DOCKS, NLP ]
 ---
 

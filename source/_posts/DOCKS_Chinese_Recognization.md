@@ -1,5 +1,6 @@
 title: DOCKS中文识别——基于Baidu + Sentencelist方法
 date: 2015-09-11 20:03:37 
+categories: Technique
 tags: [DOCKS, NLP ]
 ---
 

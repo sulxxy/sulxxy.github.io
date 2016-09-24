@@ -1,5 +1,6 @@
 title: Qt Note 1 -- Spreadsheet
 date: 2015-07-31 09:00:00
+categories: Technique
 tags: [Qt]
 ---
 

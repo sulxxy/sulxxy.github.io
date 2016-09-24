@@ -1,6 +1,7 @@
 title: Embedded Systems Basis and Design
 date: 2016-03-02 19:59:23
-tags: [Summary, Embedded Systems]
+categories: Curriculum Summary
+tags: [Embedded Systems]
 ---
 
 # Workflow of embedded systems

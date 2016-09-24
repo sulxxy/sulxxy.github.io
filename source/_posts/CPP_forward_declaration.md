@@ -1,5 +1,6 @@
 title: C++'s forward declaration
 date: 2015-08-10 20:03:45
+categories: Technique
 tags: [C++]
 ---
 

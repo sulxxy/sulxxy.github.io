@@ -1,6 +1,7 @@
 title: Network Programming
 date: 2016-05-03 16:51:33
-tags: [Network, Unix, Summary]
+categories: Curriculum Summary
+tags: [Network, Unix]
 ---
 
 # Description

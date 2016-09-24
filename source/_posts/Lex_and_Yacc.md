@@ -1,5 +1,6 @@
 title: Lex与Yacc的使用
 date: 2014-11-11 22:59:12
+categories: Technique
 tags: [Compiler]
 ---
 

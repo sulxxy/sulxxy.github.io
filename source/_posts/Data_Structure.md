@@ -1,6 +1,7 @@
 title: Data Structure
 date: 2016-02-14 14:28:03
-tags: [Summary]
+categories: Curriculum Summary
+tags: [Data Structure]
 ---
 
 Linear lists

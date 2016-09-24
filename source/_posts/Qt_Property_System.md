@@ -1,5 +1,6 @@
 title: Qt Note 3 -- Qt's Property System
 date: 2015-08-01 16:57:34
+categories: Technique
 tags: [Qt]
 ---
 

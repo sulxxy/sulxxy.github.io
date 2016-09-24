@@ -1,6 +1,6 @@
 title: Distributed Objects Technology
 date: 2016-05-03 14:41:42
-tags: [Summary]
+categories: Curriculum Summary
 ---
 
 # Description

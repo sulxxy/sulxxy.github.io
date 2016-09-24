@@ -1,5 +1,6 @@
 title: QTableWidget的美化
 date: 2014-09-13 14:03:43
+categories: Technique
 tags: [Qt]
 ---
 

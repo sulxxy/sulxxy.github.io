@@ -1,5 +1,6 @@
 title: Iterator and Generator in Python
 date: 2016-08-25 10:05:12
+categories: Study Notes
 tags: [Python]
 ---
 

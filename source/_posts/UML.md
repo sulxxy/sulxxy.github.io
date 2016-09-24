@@ -1,6 +1,6 @@
 title: UML
 date: 2016-04-24 10:00:12
-tags: [Summary]
+categories: Curriculum Summary
 ---
 
 # Description

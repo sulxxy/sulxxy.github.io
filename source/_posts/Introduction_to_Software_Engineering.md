@@ -1,6 +1,6 @@
 title: Introduction to Software Engineering
 date: 2016-04-10 16:06:45
-tags: [Summary]
+categories: Curriculum Summary
 ---
 
 # Description

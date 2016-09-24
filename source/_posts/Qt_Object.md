@@ -1,5 +1,6 @@
 title: Qt Note 7 -- QObject
 date: 2015-08-08 18:33:07
+categories: Technique
 tags: [Qt]
 ---
 

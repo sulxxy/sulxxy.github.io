@@ -1,5 +1,6 @@
 title: Shell 截取字符串的方法 
 date: 2016-04-28 11:19:23
+categories: Technique
 tags: [Shell, Linux]
 ---
 

@@ -1,6 +1,7 @@
 title: Operating System
 date: 2016-04-10 21:09:42
-tags: [Summary]
+categories: Curriculum Summary
+tags: [Operating System]
 ---
 
 # Description
