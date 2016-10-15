@@ -1,6 +1,6 @@
 title: Data Structure
 date: 2016-02-14 14:28:03
-categories: Curriculum Summary
+categories: Study Notes
 tags: [Data Structure]
 ---
 

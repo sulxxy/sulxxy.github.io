@@ -1,6 +1,6 @@
 title: 观影--大话西游
 date: 2016-04-16 19:45:12
-categories: Reading Notes
+categories: Essays
 ---
 
 昨晚又重看了大话西游，似乎看懂了这部电影的脑洞，梳理下时间线先。

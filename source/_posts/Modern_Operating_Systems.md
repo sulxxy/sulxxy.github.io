@@ -1,6 +1,6 @@
 title: Operating System
 date: 2016-04-10 21:09:42
-categories: Curriculum Summary
+categories: Study Notes
 tags: [Operating System]
 ---
 

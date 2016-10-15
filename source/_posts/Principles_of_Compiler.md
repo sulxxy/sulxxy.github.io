@@ -1,6 +1,6 @@
 title: Principles of Compiler
 date: 2016-04-10 16:12:45
-categories: Curriculum Summary
+categories: Study Notes
 tags: [Compiler]
 ---
 

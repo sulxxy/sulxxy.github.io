@@ -1,6 +1,6 @@
 title: C++ Summary
 date: 2016-01-26 10:09:29 
-categories: Curriculum Summary
+categories: Study Notes
 tags: [C++]
 ---
 

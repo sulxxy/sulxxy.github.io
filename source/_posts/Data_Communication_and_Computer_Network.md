@@ -1,6 +1,6 @@
 title: Data Communication and Computer Network
 date: 2016-05-01 15:02:32
-categories: Curriculum Summary
+categories: Study Notes
 tags: [Network]
 ---
 

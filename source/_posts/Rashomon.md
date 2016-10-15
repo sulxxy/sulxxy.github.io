@@ -1,6 +1,6 @@
 title: 读书笔记——罗生门
 date: 2016-03-12 10:32:22
-categories: Reading Notes
+categories: Essays
 ---
 
 曾经听说过黑泽明的电影《罗生门》，但没看过，本以为原著是长篇小说呢。昨天下到kindle上，发现原来是短篇，只有短短的14页纸，作者是芥川龙之介。

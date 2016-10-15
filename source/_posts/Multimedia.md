@@ -1,6 +1,6 @@
 title: Multimedia
 date: 2016-05-03 19:27:12
-categories: Curriculum Summary
+categories: Study Notes
 ---
 
 # Description

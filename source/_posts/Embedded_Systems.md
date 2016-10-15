@@ -1,6 +1,6 @@
 title: Embedded Systems Basis and Design
 date: 2016-03-02 19:59:23
-categories: Curriculum Summary
+categories: Study Notes
 tags: [Embedded Systems]
 ---
 

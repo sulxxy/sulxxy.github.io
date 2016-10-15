@@ -1,6 +1,6 @@
 title: 读书笔记——天龙八部
 date: 2016-06-29 21:41:22
-categories: Reading Notes
+categories: Essays
 ---
 
 去敦煌前在 kindle 上下载了『天龙八部』，供路上消遣，刚刚读完。

@@ -1,6 +1,6 @@
 title: 《中国历代政治得失》读书笔记
 date: 2016-04-04 15:09:45
-categories: Reading Notes
+categories: Essays
 ---
 
 今天读完了《中国历代政治得失》，写点心得。

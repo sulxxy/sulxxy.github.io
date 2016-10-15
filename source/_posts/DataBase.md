@@ -1,6 +1,6 @@
 title: Database
 date: 2016-04-27 20:39:23
-categories: Curriculum Summary
+categories: Study Notes
 tags: [Database]
 ---
 

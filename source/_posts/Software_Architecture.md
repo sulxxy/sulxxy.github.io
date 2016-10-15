@@ -1,6 +1,6 @@
 title: Software Architecture
 date: 2016-04-10 09:01:12
-categories: Curriculum Summary
+categories: Study Notes
 ---
 
 

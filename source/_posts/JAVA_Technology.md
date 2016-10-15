@@ -1,6 +1,6 @@
 title: JAVA technology
 date: 2016-05-01 19:43:54
-categories: Curriculum Summary
+categories: Study Notes
 tags: [JAVA]
 ---
 

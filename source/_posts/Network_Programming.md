@@ -1,6 +1,6 @@
 title: Network Programming
 date: 2016-05-03 16:51:33
-categories: Curriculum Summary
+categories: Study Notes
 tags: [Network, Unix]
 ---
 
