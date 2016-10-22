@@ -42,6 +42,6 @@ DOCKS主要测试了三类数据集：
 ---
 对DOCKS主要改进了一下两点：
 1. 语音分类
-[SpeakerIdentification in DOCKS](http://sulxxy.github.io/2015/08/30/DOCKS_speakeridentify/)
+[SpeakerIdentification in DOCKS](http://sulxxy.github.io/DOCKS_speakeridentify/)
 2. 中文识别
-[DOCKS中文识别——基于Baidu + Sentencelist方法](http://sulxxy.github.io/2015/09/11/DOCKS_Chinese_Recognization/)
+[DOCKS中文识别——基于Baidu + Sentencelist方法](http://sulxxy.github.io/DOCKS_Chinese_Recognization/)
