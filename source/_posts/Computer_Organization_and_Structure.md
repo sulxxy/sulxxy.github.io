@@ -10,6 +10,7 @@ categories: Study Notes
 	* Decimal to Binary: 730.8125 -- 1011011010.1101
 	* Integer part: Divide by radix, get the remainder, from bottom to top;
 	* Floating part: Multiply by radix, get the integer part, from top to bottom.
+<!-- more -->
 2. True form
 	* Definition: <b>Sign bit + Value bit</b>
 	* Details: 

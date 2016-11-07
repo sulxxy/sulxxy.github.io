@@ -7,6 +7,7 @@ tags: [Network, Unix]
 # Description
 ---
 In this course, we mainly learned about the technique of sockets, included TCP and UDP.
+<!-- more -->
 
 # TCP Socket Programming
 ---

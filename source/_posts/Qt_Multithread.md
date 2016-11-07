@@ -6,6 +6,7 @@ tags: [Qt]
 
 1. If you need a thread to handle event, do not forget to add **exec()** in the function **run()**;
 2. Do not use **this** pointer as a parameter of some merber's constructors in the QThread and its subclasses. For instance:
+<!-- more -->
 {% codeblock %}	
 SocketThread::SocketThread(qintptr socketDescriptor, QParent*)
 	:QThread(parent){

@@ -11,6 +11,7 @@ The signals and slots mechanism is a central feature of Qt which made by Qt's me
 ![a diagram about Signals and Slots](/img/Signals_and_Slots.jpg)
 - Signals and slots are loosely coupled: A class which emits a signal **neither knows nor cares** which slots receive the signal. Likewise, a slot **neither knows nor cares** whether there are some signals connected to it. It is just a normal member function labeld by **slots**.
 - We can connect as many as signals as we want to a single slot, and a signal can be connected to as many slots as we need. It is possible to connect a signal directly to another signal(In this case, the receiver will send signal imediately whenever the first is emitted.).
+<!-- more -->
 
 # Building Connection
 ---

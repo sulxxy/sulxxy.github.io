@@ -7,6 +7,7 @@ tags: [ Sphinx, DOCKS, NLP ]
 # 引言
 ---
 在DOCKS项目中，一个重要的特性就是有效地结合了Google和Sphinx二者的优势。实现这一特性的重要因素在于，Sphinx具有良好的可扩展性和灵活性，用户可以用自己实现的前端替代Sphinx自带的前端。DOCKS正是通过实现了一个基于注音的前端，代替了Sphinx的前端。*本文着重介绍Sphinx的前端实现机制以及DOCKS是如何应用这一特性的。*
+<!-- more -->
 
 # Sphinx中的前端
 ---

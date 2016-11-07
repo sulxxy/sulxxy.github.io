@@ -8,6 +8,7 @@ tags: [Database]
 ---
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 Database is a kernal software of computer systems. The content of this course includes relational models, SQL, transactions and database design.
+<!-- more -->
 
 # Relational Models
 ---

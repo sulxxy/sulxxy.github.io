@@ -14,6 +14,7 @@ tags: [Qt]
     FriendTable->setShowGrid(false);   设置不显示格子线
     FriendTable->setFont(font);   设置字体
 {% endcodeblock %}
+<!-- more -->
 
 # 设置表单背景或透明:
 ---

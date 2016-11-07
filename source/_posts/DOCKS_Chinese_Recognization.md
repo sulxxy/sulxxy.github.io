@@ -13,6 +13,7 @@ DOCKS的核心策略有二：
 	- Google + Sentencelist
 	- Google + Sphinx
 	- Google + Wordlist
+<!-- more -->
 
 通过以上两种策略，DOCKS有效地提高了识别的精度。遗憾的是，DOCKS本身并不能很好地支持中文识别。为了弥补这一缺陷，我们对DOCKS进行了一些扩展与补充，使其能够进行中文方面的识别。
 

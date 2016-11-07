@@ -8,6 +8,7 @@ tags: [NLP, Sphinx]
 ---
 This post mainly talks about some basic concepts of speech, most parts of which copy from [CMU Sphinx wiki](http://cmusphinx.sourceforge.net/wiki/tutorialconcepts). 
 <!--本文主要介绍语音识别中一些常见的概念和基本思路，主要以翻译Sphinx官方的一篇wiki--[Basic concepts of speech](http://cmusphinx.sourceforge.net/wiki/tutorialconcepts)为主，必要时会加一些其他参考资料以及自己的理解。-->
+<!-- more -->
 
 # Basic concepts of speech 
 ---

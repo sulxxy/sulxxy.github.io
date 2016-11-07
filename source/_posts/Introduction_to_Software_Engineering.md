@@ -6,6 +6,7 @@ categories: Study Notes
 # Description
 ---
 In this course, students are asked to understand the fundamental principles and concepts of software engineering, such as generic process models, software requirement, software design, software testing.
+<!-- more -->
 
 # Generic Process Models
 ---

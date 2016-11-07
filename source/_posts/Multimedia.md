@@ -6,6 +6,7 @@ categories: Study Notes
 # Description
 ---
 The content of this course mainly includes basics about audio, images and videos, lossless and lossy compression algorithms.
+<!-- more -->
 
 # Audio
 ---

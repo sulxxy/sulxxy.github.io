@@ -8,6 +8,7 @@ tags: [Embedded Systems, Tiny6410]
 [详解TINY6410硬件电路设计之二](http://www.eepw.com.cn/article/268241.htm)
 顺便附上同系列的第一篇，关于Nand Flash的：
 [详解TINY6410硬件电路设计之一](http://www.eepw.com.cn/article/267639.htm)
+<!-- more -->
 
 # 两种启动方式介绍
 ## SDBOOT：

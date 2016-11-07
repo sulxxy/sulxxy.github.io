@@ -5,6 +5,7 @@ tags: [Embedded Systems]
 ---
 
 # Workflow of embedded systems
+<!-- more -->
 # Embedded processor
 # File system
 # Communications between modules

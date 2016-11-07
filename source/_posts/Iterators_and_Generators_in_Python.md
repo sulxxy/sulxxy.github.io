@@ -7,6 +7,7 @@ tags: [Python]
 # Iterator
 ## What is iterator?
 An <b>iterator</b> is an object which can be used to traverse a container(e.g., set, list) without concerning how the elements are stored inside containers. For example:
+<!-- more -->
 {% codeblock %}
 la = [2, 3, 4]
 for element in la:

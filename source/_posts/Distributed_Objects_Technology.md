@@ -9,6 +9,7 @@ In this course, we mainly talked about distributed software. A distributed softw
 1. Software components and middleware
 2. CORBA
 3. EJB
+<!-- more -->
 
 # Components and Middleware
 ---

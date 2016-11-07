@@ -12,6 +12,7 @@ In this course, we mainly talked about the basic steps and principles about a co
 3. Semantic analysis
 4. Intermediate code generator
 5. Target code generator
+<!-- more -->
 
 There are 2 components through out the compiling process:
 1. Symbol table

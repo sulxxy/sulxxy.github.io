@@ -11,6 +11,7 @@ In this course, we mainly talked about some key issues from the point of archite
 2. Software architecture quality attributes
 3. Software architecture design
 4. Software architecture evaluation
+<!-- more -->
 
 # Styles
 ---

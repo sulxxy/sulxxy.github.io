@@ -18,6 +18,7 @@ locale: Cannot set LC_CTYPE to default locale: No such file or directory
 locale: Cannot set LC_MESSAGES to default locale: No such file or directory
 locale: Cannot set LC_ALL to default locale: No such file or directory
 {% endcodeblock %}
+<!-- more -->
 
 To deal with this problem, we can modify the file <b>/etc/default/locale/</b> to look like next:
 {% codeblock %}

@@ -9,6 +9,7 @@ tags: [Qt]
 QObject is the base class of all Qt **objects** which do not include some classes like QString. 
 
 QObjects organize themselves in object trees. When you create a QObject with another object as parent, the object will automatically add itself to the parent's children() list. The parent takes ownership of the object; i.e., it will automatically delete its children in its destructor. You can look for an object by name and optionally type using findChild() or findChildren().
+<!-- more -->
 
 # Thread Affinity
 ---

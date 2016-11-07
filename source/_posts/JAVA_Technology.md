@@ -7,6 +7,7 @@ tags: [JAVA]
 # Description
 ---
 In this course, we mainly learned the fundamentals of JAVA, JDBC, concurrency, network, GUI.
+<!-- more -->
 
 # Fundamentals of JAVA
 ---

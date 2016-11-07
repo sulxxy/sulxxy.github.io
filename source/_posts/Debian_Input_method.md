@@ -13,6 +13,7 @@ tags: [Debian]
     locale: Cannot set LC_MESSAGES to default locale: No such file or directory
     locale: Cannot set LC_ALL to default locale: No such file or directory。
 有以下方案：
+<!-- more -->
 
 a. 运行locale-gen，再运行locale。（未成功）
 

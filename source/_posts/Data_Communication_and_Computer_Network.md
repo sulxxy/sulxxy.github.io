@@ -7,6 +7,7 @@ tags: [Network]
 # Description
 ---
 We learned this course from the perspective of network architecture, such as physical layer, data link layer, Internet layer, transport layer, application layer(TCP model).
+<!-- more -->
 
 # Physical layer
 ---

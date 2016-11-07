@@ -25,6 +25,7 @@ TypeError: __str__ returned non-string (type Error)
 
 Storing debug log for failure in /home/pi/.pip/pip.log
 {% endcodeblock %}
+<!-- more -->
 
 To deal with this problem, we need to correct the system time of the Raspbian. Normally, raspberry pi uses <b>NTP</b>(Network Time Protocol) service to get time. If the time is not correct, the following command can help us:
 {% codeblock %}

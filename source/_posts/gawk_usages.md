@@ -7,6 +7,7 @@ tags: [Linux, Shell]
 # Introduction
 ---
 **AWK** programming language is a powerful pattern matching language and it is often used to process text. **GAWK** is the GNU implementation of AWK. This post mainly talks about the most basic grammars and usages of AWK. The complete manual of GAWK is [here](http://www.gnu.org/software/gawk/manual/gawk.html).
+<!-- more -->
 
 # Record, Field
 The input is read in units called **records**, and is processed by the rules of your program one record at a time. By default, each record is one line. Each record is automatically split into chunks called **fields**. This makes it more convenient for programs to work on the parts of a record.

@@ -1,4 +1,4 @@
-title: Course--Compiler Design
+title: University Course -- Compiler Design
 date: 2016-11-07 22:29:21
 tags: [Compiler]
 categories: Study Notes
@@ -6,6 +6,7 @@ categories: Study Notes
 
 # Overview
 This course introduces the major ideas used today in the implementation of programming language compilers. You will learn how a program written in a high-level language designed for humans translates into a program written in low-level assembly.  
+<!-- more -->
 
 # Theory
 1. Lexical analysis

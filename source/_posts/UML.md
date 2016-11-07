@@ -6,6 +6,7 @@ categories: Study Notes
 # Description
 ---
 UML means Unified Modeling Language. In this course, we talked about some typical models and diagrams.
+<!-- more -->
 
 # 4+1 model
 ---

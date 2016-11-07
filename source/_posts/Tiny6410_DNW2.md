@@ -14,6 +14,7 @@ superboot：[superboot-6410](http://download.csdn.net/detail/u012016202/8564895)
 
    1. 配套光盘里的superboot-6410是烧不进去的，原因不明，用上面的链接中的那个可以。
    2. 至今依旧没有解决minitools无法连上开发板的问题，笔者使用的是superboot中的下载运行功能，习惯终端操作，这样反而更方便些。
+<!-- more -->
 
 正文：
 

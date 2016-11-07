@@ -15,6 +15,7 @@ Array implementation
 			unsigned int length;  //the length of the list
 		}Array_Node, *P_Array_Node;
 	{% endcodeblock %}
+<!-- more -->
 2. Dynamic allocation:
 	{% codeblock %}	
 		typedef struct{

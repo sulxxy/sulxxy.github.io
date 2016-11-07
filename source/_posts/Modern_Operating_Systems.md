@@ -7,6 +7,7 @@ tags: [Operating System]
 # Description
 ---
 This course mainly talks about some important concepts of an operating system, which includes sessions of process management, memory management, file system, IO and dead lock.
+<!-- more -->
 
 # Processes & Threads
 ---

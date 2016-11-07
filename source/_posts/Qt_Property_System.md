@@ -7,6 +7,7 @@ tags: [Qt]
 # Preface
 ---
 Before talking about Qt's Property System, let us think about properties. Property is a kind of data member(field) which can be written and read. We can see it as an encapsulation to data member(field). But why do we need properties? A normal field with functions get() and set(args) can also implements this target. I think the most important advantage of property is it provides class users a convenient way to access internal state of class. What's the meaning of "convenient"? For instance, if we use field and functions get() and set(args), the code would be:
+<!-- more -->
 {% codeblock %}
 	String id1 = employee.getID();
 	String id2 = new String("Lew");

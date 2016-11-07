@@ -13,6 +13,7 @@ tags: [C++]
 	* characters
 	* void: cannot have an object
 	* boolean
+<!-- more -->
 
 2. a user can define: Enumeration
 	* range: (0, 2^n - 1), e.g. 

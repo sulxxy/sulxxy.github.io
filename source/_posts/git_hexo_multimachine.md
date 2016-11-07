@@ -6,6 +6,7 @@ tags: [Git, Hexo]
 
 # Description
 The blogs on my github pages are all written and deployed by HEXO. Now, I need to write blogs on two computers. Since the HEXO have not background, all of pages are generated from local files. That means, in order to write and post blogs from several computers, we need to synchronize our local files. So, I create a new branch which is called **source** on the github pages repository yourusername.github.io.git. 
+<!-- more -->
 
 # Configuration
 The main steps:

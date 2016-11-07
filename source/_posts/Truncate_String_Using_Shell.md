@@ -16,6 +16,7 @@ shell中截取字符串的方法有很多中，\${expression}一共有9种使用
 上面4种可以用来进行缺省值的替换。
 > \${\\#parameter}
 
+<!-- more -->
 上面这种可以获得字符串的长度。 
 > \${parameter%word} 最小限度从后面截取word
 > \${parameter%%word} 最大限度从后面截取word

@@ -6,6 +6,7 @@ tags: [C++]
 
 ## Problem description
 The problem goes like this: I wrote 3 classes in different files A.h, B.h, C.h. A.h includes B.h and B.h includes C.h. For some specific requirement, I need use class A in C.h. What I did first was to include A.h in C.h. But fatally, the compiler gave errors like below:
+<!-- more -->
 {% codeblock %}	
 E:\Projects\Qt\QQServer\serversocket.h:33: error: C2143: 语法错误 : 缺少“;”(在“*”的前面)
 E:\Projects\Qt\QQServer\serversocket.h:33: error: C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int

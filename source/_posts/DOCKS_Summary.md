@@ -7,6 +7,7 @@ tags: [ DOCKS, NLP ]
 # DOCKS简介
 ---
 DOCKS全称为Domain- and Cloud-based Knowledge for Speech Recognition，由德国汉堡大学开发，旨在实现更加精确的域内识别。
+<!-- more -->
 
 # DOCKS所要解决的问题
 ---

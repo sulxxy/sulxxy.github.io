@@ -11,6 +11,7 @@ C++ GUI Programming with Qt4 Chapter 02 ~ Chapter 05.
 # Artifact:
 ---
 A Spreadsheet program based on QMainwindow, implements a basic sheet application.
+<!-- more -->
 The running screenshot:
 ![SpreadSheet](/img/SpreadSheet.jpg)
 

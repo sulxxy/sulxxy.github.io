@@ -12,6 +12,7 @@ To link against the Qt Network module, add this line to the project file:
 
 	QT  +=  network
 
+<!-- more -->
 # Network programming with Qt
 ---
 Qt network module offers classes that allow you write TCP/IP clients and servers. It offers lower-level classes such as QTCPSocket, QTCPServer and QUDPSocket that represents low level network concepts; and higher-level classes such as QNetworkRequest, QNetworkReply and QNetworkManager to perform network operations using common protocols.It also offers classes such as QNetworkConfiguration, QNetworkConfigurationManager and QNetworkSession that implement bearer management.

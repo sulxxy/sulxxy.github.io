@@ -8,6 +8,7 @@ tags: [Debian]
 
     X -configure, X -config xorg.conf.new
 然后cp到/etc/X11/xorg.conf。
+<!-- more -->
 但接踵而至的问题是图形界面完全打不开了，显然是xorg.conf的问题。终于在下面的链接中找到了解决方案，附上链接：[Xorg.conf双屏配置解惑](http://blog.sina.com.cn/s/blog_7cd2354e01018s9j.html)，十分感谢原作者～
 配置如下：
 

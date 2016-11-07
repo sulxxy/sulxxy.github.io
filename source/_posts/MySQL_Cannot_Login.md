@@ -12,6 +12,7 @@ there was an error:
 
 	The server quit without updating pid file (/usr/local/mysql/data/)
 There may be serveral reasons for this problem, such as the Permissons of the $mysql/data, the running **mysqld** process, the content of the file **my.cnf**. The first two factors may be the main reasons.
+<!-- more -->
 
 # Solutions
 For this kind of problem description, the most common reason is the **mysqld** process has been running, so we need to the PID of this process and kill it first. 

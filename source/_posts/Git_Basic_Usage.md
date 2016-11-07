@@ -13,6 +13,8 @@ git config --global user.name  "xxx"
 `
 git config --global user.email   xxxxxxxxxxxxxxxxx  //--global参数表示全局配置，对本机每个git项目均起作用
 `
+<!-- more -->
+
 ## 查询配置信息
 `
 gedit ~/.gitconfig
