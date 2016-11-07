@@ -15,13 +15,13 @@ OK, now please allow me to introduce this site shortly.
 Here is the place where I record what I have learned from books or courses(category *Study Notes*) as well as some technique issues(category *Technique*). Also, I wrote some comments on the books I've read and the moives I've watched because I really like books and movies which locate in the category of *Essays*. 
 Under the cagetory of *Study Notes*, there are 3 kinds of pre-fixes:
 1. Coursera Course: \*\*\*
-2. Univeristy Course: \*\*\*
+2. Univerisity Course: \*\*\*
 3. Book: \*\*\*
 
 All of notes in this category are actually a summary of the name of this course or book because this site only has one level category. Every course or book listed in this category would have an independent github respository in which I would write and submit some wikis and these wikis would include all of my notes and give much more details about this course or book.
 
 If you should have any questions, please do not hesitate to contact me:
-Email: mailto:cokeyliu@gmail.com **OR** mailto:zhiwei.liu@campus.tu-berlin.de
+Email: [cokeyliu@gmail.com](cokeyliu@gmail.com) **
 
 
 
