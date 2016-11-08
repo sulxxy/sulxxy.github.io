@@ -6,6 +6,7 @@ categories: Study Notes
 
 # What is this course about?
 Graduates of this module are able to master methods and techniques with which the quality of embedded systems can be systematically ensured. They have knowledge about existing verification and validation techniques and know how to apply them. Furthermore, they are also able to incorporate new techniques using advanced reading material (e.g., conference proceedings), and to present their main characteristics and how they work.
+<!-- more -->
 
 # Course Contents
 1. [Part1: Introduction](https://github.com/sulxxy/Course_Quality_assurance_of_Embedded_Systems/tree/master/Introduction)
