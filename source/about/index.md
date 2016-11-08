@@ -21,7 +21,7 @@ Under the cagetory of *Study Notes*, there are 3 kinds of pre-fixes:
 All of notes in this category are actually a summary of the name of this course or book because this site only has one level category. Every course or book listed in this category would have an independent github respository in which I would write and submit some wikis and these wikis would include all of my notes and give much more details about this course or book.
 
 If you should have any questions, please do not hesitate to contact me:
-Email: [cokeyliu@gmail.com](cokeyliu@gmail.com) **
+Email: <a href="mailto:cokeyliu@gmail.com">cokeyliu@gmail.com</a>
 
 
 
