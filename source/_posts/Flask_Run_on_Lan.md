@@ -9,7 +9,7 @@ Flask programs would run the the localhost in default and cannot be accessed by 
 
 Or write the configuration in the code:
 
-> app.run(host='0.0.0.0', port=4000) \# if you want to modify the port to 4000
+> app.run(host='0.0.0.0')
 
 
 
