@@ -12,5 +12,8 @@ Or write the configuration in the code:
 
 > app.run(host='0.0.0.0')
 
+Since having written the *app.run()* in the file, to start the server, we just need to:
+
+> ./server.py
 
 
