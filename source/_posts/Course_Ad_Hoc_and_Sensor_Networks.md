@@ -6,6 +6,7 @@ categories: Study Notes
 
 # Introduction
 Wireless sensor networks are large-scale networks of nodes comprised of sensing elements (temperature, acceleration, humidity, pressure, light, etc.), a processing element and a wireless transceiver. The nodes collaborate in application tasks ranging from environmental monitoring, health monitoring, surveillance, building automation, etc.
+<!-- more -->
 
 Sensor networks differ from "traditional" wireless networks in several aspects, most importantly in their resource constrained nature. The sensor nodes are typically severely restricted in terms of memory, processing capacity and energy budget leading to the need for careful design of the node system software and protocol stack. These novel system solutions, driven by the specific nature of the sensor networks as a platform, are the focus of our interest in this course.
 

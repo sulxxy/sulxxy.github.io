@@ -1,4 +1,4 @@
-title: University Course -- Compiler Design
+title: Compiler Design
 date: 2016-11-07 22:29:21
 tags: [Compiler]
 categories: Study Notes
