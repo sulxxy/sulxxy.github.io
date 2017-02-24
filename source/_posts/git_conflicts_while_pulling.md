@@ -6,10 +6,11 @@ tags: [Git]
 
 # Intro
 While pulling from remote repository, sometimes there would be error hint like:
-'''sh
+```sh
 CONFLICT(content): Merge conflict in modules/test/test.cpp
 Automatic merge failed; fix conflicts and then commit the results.
-'''
+```
+<!-- more -->
 if you open the file `modules/test/test.cpp`, you will see:
 ```cpp
 #include <iostream>
@@ -42,19 +43,16 @@ Then you can deal with all of conflicts one by one under the diff tools. I use `
 From left to right, top to bottom, these windows are:
 **Local Version**, **Base (Accesstor) Version**, **Remote Version** and **the version you want**.
 in the last window, when you move cursor to `<<<<<HEAD`, then you can type:
-'''sh
+```sh
 :diffget RE
-'''
+```
 then the file will accept the remote version.
 
 Similarly, 
-'''sh
+```sh
 :diffget RE      ;using remote version
 :diffget LO      ;using local version
 :diffget BA      ;using base version
-'''
+```
 
 Then conflict will be fixed and you can go on the next conflict and save and quit current file.
-
-
-

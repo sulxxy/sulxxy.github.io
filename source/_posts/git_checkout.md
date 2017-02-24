@@ -6,6 +6,7 @@ tags: [Git]
 
 ## Intro 
 **git checkout** has 3 functions: checkout branch, checkout commit, checkout file.
+<!-- more -->
 
 ## checkout branch
 This are used to switch to a certain branch, e.g.,
