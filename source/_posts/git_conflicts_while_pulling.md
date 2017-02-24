@@ -1,7 +1,7 @@
 title: Fix conflicts while pulling using git
 date: 2017-02-24 14:37:12
-tags: [Git]
 categories: Technique
+tags: [Git]
 ---
 
 # Intro
@@ -11,7 +11,7 @@ CONFLICT(content): Merge conflict in modules/test/test.cpp
 Automatic merge failed; fix conflicts and then commit the results.
 '''
 if you open the file `modules/test/test.cpp`, you will see:
-```CPP
+```cpp
 #include <iostream>
 <<<<<<<HEAD
 #include <string>

@@ -1,7 +1,7 @@
-title: git tool: checkout
+title: git tool -- checkout
 date: 2017-02-24 15:13:12
-tags: [Git]
 categories: Technique
+tags: [Git]
 ---
 
 ## Intro 
