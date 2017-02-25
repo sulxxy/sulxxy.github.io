@@ -1,5 +1,5 @@
 title: C++ Summary
-date: 2016-01-26 10:09:29 
+date: 2016-01-26 10:09:29
 categories: Study Notes
 tags: [C++]
 ---
@@ -7,8 +7,8 @@ tags: [C++]
 # PART I: Built-in types and basic facilities
 ---
 ## Built-in types
-1. Fundamental types: 
-	* in teger: int, long, short
+1. Fundamental types:
+	* integer: int, long, short
 	* floating point
 	* characters
 	* void: cannot have an object
@@ -16,45 +16,45 @@ tags: [C++]
 <!-- more -->
 
 2. a user can define: Enumeration
-	* range: (0, 2^n - 1), e.g. 
-	{% codeblock %}	
+	* range: (0, 2^n - 1), e.g.
+	{% codeblock %}
 		enum ae = {a = 1, b = 9}; // range from 0 to 15
-	{% endcodeblock %}	
+	{% endcodeblock %}
 	* example:
-	{% codeblock %}	
+	{% codeblock %}
 		enum SAMP{X, Y, Z};
 		SAMP t1 = X;
  		SAMP t2 = Y;
-	{% endcodeblock %}	
+	{% endcodeblock %}
 
-3. Other types 
+3. Other types
 	* structure
-	{% codeblock %}	
+	{% codeblock %}
 		typedef struct{
 		       int x;
 		       char c;
 		}T, \*TN;
 		T a;
 		TN pa = &a;
-	{% endcodeblock %}	
+	{% endcodeblock %}
 	* class
-	{% codeblock %}	
+	{% codeblock %}
 		class A{
 		private:
 		           int a;
 		public:
 		          A(int);
-		          double trans(int); 
+		          double trans(int);
 		};
-	{% endcodeblock %}	
+	{% endcodeblock %}
 	* pointer
 	* array
 	* reference: a reference is an alternative name for an object
-	{% codeblock %}	
+	{% codeblock %}
 		int i = 0;
 		int& j = i;
 		j++; // i++
-	{% endcodeblock %}	
+	{% endcodeblock %}
 
 ## Basic facilities:
 1. Namespace
@@ -119,7 +119,7 @@ void T::print(){
 ## Classes
 1. Class Basics
 	* A class is a user-defined type.
-		{% codeblock %}	
+		{% codeblock %}
 		class Demo{
 		public:
 			Demo(int);
@@ -137,7 +137,7 @@ void T::print(){
 			//...
 			return;
 		}
-		{% endcodeblock %}	
+		{% endcodeblock %}
 	* The <b>public</b> members provides the class's interfaces and the <b>private</b> members provides implementation details.
 	* <b>class</b> and <b>struct</b>
 		{% codeblock %}
@@ -147,13 +147,13 @@ void T::print(){
 		{% codeblock %}
 		class { public: /*...*/};
 		{% endcodeblock %}
-		I tend to use <b>struct</b> for classes that I think of as "just simple data structures". If I think of a class as "a proper type with an invariant", I use <b>class</b>. 
+		I tend to use <b>struct</b> for classes that I think of as "just simple data structures". If I think of a class as "a proper type with an invariant", I use <b>class</b>.
 2. Data members & member functions
 3. Constructors
 	Declare explicit purposes of initializing objects.
 4. Static
 	A <b>static</b> class member is statically allocated rather than a part of each object of the class. Generally, the <b>static</b> member declaration acts as a declaration for a definition outside the class.
-	{% codeblock %}	
+	{% codeblock %}
 	class S_Samp{
 	private:
 		int ma;
@@ -162,7 +162,7 @@ void T::print(){
 		/*...*/
 	};
 	char S_Samp::mc = '';          //definition
-	{% endcodeblock %}	
+	{% endcodeblock %}
 5. Access control
 6. Default arguments
 7. Self-reference: this
