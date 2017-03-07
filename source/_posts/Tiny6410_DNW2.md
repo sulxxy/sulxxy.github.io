@@ -4,6 +4,8 @@ categories: Technique
 tags: [Tiny6410, Embedded Systems]
 ---
 
+> 迁移自我的CSDN 博客：[tiny6410无法使用usb下载功能的解决办法](http://blog.csdn.net/sulxxy/article/details/44885585)
+
 开发板：友善之臂Tiny6410
 
 superboot：[superboot-6410](http://download.csdn.net/detail/u012016202/8564895)

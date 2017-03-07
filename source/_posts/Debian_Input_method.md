@@ -4,6 +4,8 @@ categories: Technique
 tags: [Debian]
 ---
 
+> 迁移自我的CSDN 博客：[Debian7.5安装折腾笔记—— 输入法](http://blog.csdn.net/sulxxy/article/details/37559067)
+
 安装ibus以后，发现无法打开preferences设置，在终端里运行ibus-setup，提示:
 
 	`Gtk-WARNING (recursed) **: Locale not supported by C library.Using the fallback 'C' locale.

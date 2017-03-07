@@ -4,6 +4,8 @@ categories: Technique
 tags: [Embedded Systems]
 ---
 
+> 迁移自我的CSDN 博客：[BB-Black利用Debian主机进行上网](http://blog.csdn.net/sulxxy/article/details/44535647)
+
 首先，需要做的是让板子能和主机通讯，不赘述。通过ssh命令进入板子以后，发现是ping不到外网的，这时便需要`iptable`命令，进行包转发，从而通过主机网卡进行与外网互联（个人理解）。具体配置过程如下：
 在宿主机（笔者Debian）上，
 ```sh

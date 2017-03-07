@@ -4,6 +4,8 @@ categories: Technique
 tags: [Embedded Systems, Tiny6410]
 ---
 
+> 迁移自我的CSDN 博客：[Tiny6410学习笔记1——GPIO](http://blog.csdn.net/sulxxy/article/details/46502019)
+
 # GPIO硬件介绍
 GPIO（General Purpose I/O Ports)意为通用输入输出端口，也就是一些引脚，通过它们输出高低电平或者通过它们读入引脚的状态——高电平还是低电平。
 

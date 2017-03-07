@@ -4,6 +4,8 @@ categories: Technique
 tags: [Debian]
 ---
 
+> 迁移自我的CSDN 博客：[Debian7.5--双屏显示问题](http://blog.csdn.net/sulxxy/article/details/38307639)
+
 笔者所用显示屏最大分辨率为1920\*1080，但在debian下无法显示1920\*1080分辨率，查资料发现可以通过配置/etc/X11/xorg.conf更改，但发现debian默认没有xorg.conf。解决方案是进入字符界面关了gnome（/etc/init.d/gdm3 stop)，然后
 
     X -configure, X -config xorg.conf.new

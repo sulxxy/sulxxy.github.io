@@ -4,6 +4,7 @@ categories: Technique
 tags: [Compiler]
 ---
 
+> 迁移自我的CSDN 博客：[Lex 与Yacc 的使用](http://blog.csdn.net/sulxxy/article/details/41021635)
 
 本文转自[编译器的自动生成工具LEX和YACC的使用方法](http://blog.sina.com.cn/s/blog_58a84dcc01000bf6.html)， 感谢原作者。
 

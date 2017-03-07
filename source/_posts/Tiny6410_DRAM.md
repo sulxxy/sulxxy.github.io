@@ -4,6 +4,8 @@ categories: Technique
 tags: [Embedded Systems, Tiny6410]
 ---
 
+> 迁移自我的CSDN 博客：[Tiny6410学习笔记2——DRAM Controller（存储控制器）](http://blog.csdn.net/sulxxy/article/details/46514477)
+
 # 一些关于Tiny6410中SDRAM的科普知识
 [详解TINY6410硬件电路设计之二](http://www.eepw.com.cn/article/268241.htm)
 顺便附上同系列的第一篇，关于Nand Flash的：

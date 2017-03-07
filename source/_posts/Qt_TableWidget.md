@@ -4,6 +4,8 @@ categories: Technique
 tags: [Qt]
 ---
 
+> 迁移自我的博客：[QTableWidget的美化](http://blog.csdn.net/sulxxy/article/details/39250299)
+
 # 一些基本设置：
 ---
 {% codeblock %}

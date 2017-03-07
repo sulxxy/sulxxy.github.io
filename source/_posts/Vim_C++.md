@@ -4,13 +4,16 @@ categories: Technique
 tags: [Vim]
 ---
 
+> 迁移自我的CSDN 博客：[vim C++ 补全](http://blog.csdn.net/sulxxy/article/details/38322545)
+
 本文转自：[vim c++补全](http://blog.163.com/023_dns/blog/static/1187273662012120114837432/),
 十分感谢作者。
 
 
 首先确定vim编辑.cc或者.cpp文件时当前自动补全函数，在命令模式下输入
-
+'''sh
     :set omnifunc?
+'''
 
 如果得到的结果为：omnifunc=ccomplete#Complete，说明有必要进行以下的操作以实现针对c++的自动补全
 
@@ -24,13 +27,16 @@ tags: [Vim]
 
 	B>. 运行以下命令
 
+   '''sh
     	$ cd ~/.vim/tags
     	$ ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ cpp_src
     	$ mv tags cpp
 4. 按照步骤3为其他库创建tags，我选择了openGL 与　FLTK，下面为openGL对应的命令, FLTK类似
 
-    	ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ /usr/include/GL
-		mv tags gl
+   '''sh
+    ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --language-force=C++ /usr/include/GL
+    mv tags gl
+   '''
 5. 修改~/.vimrc文件
 	在其中加入以下内容：
 

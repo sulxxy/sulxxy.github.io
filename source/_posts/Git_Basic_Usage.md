@@ -1,8 +1,10 @@
 title: Git的一些基本用法
-date: 2014-09-27 21:50:08
+date: 2014-04-25 13:56:08
 categories: Technique
 tags: [Git]
 ---
+
+> 迁移自我的CSDN 博客：[linux中git的使用](http://blog.csdn.net/sulxxy/article/details/24465427)
 
 # git的安装后的配置
 ---

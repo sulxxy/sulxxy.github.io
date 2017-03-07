@@ -4,6 +4,8 @@ categories: Technique
 tags: [Embedded Systems, Tiny6410]
 ---
 
+> 迁移自我的CSDN 博客：[Tiny6410学习笔记3——Nand Flash Controller](http://blog.csdn.net/sulxxy/article/details/46609653)
+
 # Nand Flash简介
 ## 简介
 相当于pc机的硬盘，保存系统运行所必须的操作系统、应用程序、用户数据以及运行过程中产生的一系列数据。掉电后数据仍可保存。
