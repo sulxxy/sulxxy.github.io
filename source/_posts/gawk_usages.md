@@ -114,7 +114,7 @@ $ gawk '
 -| def ghi
 {% endcodeblock %}
 
-\\\2 means the matching result of the regular expression of the second parenthesis("(def)"). 
+\\\\2 means the matching result of the regular expression of the second parenthesis("(def)"). 
 
 As with sub(), you must type two backslashes in order to get one into the string. In the replacement text, the sequence ‘\0’ represents the entire matched text, as does the character ‘&’.
 
