@@ -5,10 +5,10 @@ categories: Study Notes
 
 # Description
 ---
-UML means Unified Modeling Language. In this course, we talked about some typical models and diagrams.
+UML means **Unified Modeling Language**. In this course, we talked about some typical models and diagrams in software development.
 <!-- more -->
 
-# 4+1 model
+# 4+1 Model
 ---
 ## Scenarios
 1. Describes the functionality of the system.
