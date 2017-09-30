@@ -1,5 +1,5 @@
 title: Perceptron
-date: 2015-06-16 22:35:01
+date: 2017-09-30 22:35:01
 tag: [Machine Learning]
 category: Machine_Learning_EN
 ---
