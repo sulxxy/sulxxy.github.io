@@ -1,8 +1,11 @@
 .DS_Store
 Thumbs.db
-_config.yml
 db.json
 *.log
+.gitmodules
+.gitignore
+scaffolds/
 node_modules/
+themes/
 public/
 .deploy*/
