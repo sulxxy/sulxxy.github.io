@@ -5,6 +5,7 @@ category: Machine_Learning_CN
 ---
 
 该目录主要存放机器学习相关的中文笔记，全部来自我个人平时的学习总结。此目录为中文版，与之相对应的还有英文版，详情见[这里](http://liuzhiwei.me/categories/Machine-Learning-EN).
+<!-- more -->
 
 以下是中文版笔记的快速索引：
 
