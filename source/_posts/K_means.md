@@ -1,5 +1,5 @@
-title: Perceptron
-date: 2017-09-30 22:35:01
+title: K means Clustering
+date: 2017-11-17 22:35:01
 tag: [Machine Learning]
 category: Machine_Learning_EN
 ---
@@ -19,6 +19,8 @@ category: Machine_Learning_EN
 2. Sample code
 
 # Summary
+
+See [GMM and EM]() for more.
 
 
 # Reference

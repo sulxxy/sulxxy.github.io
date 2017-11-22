@@ -1,13 +1,13 @@
-title: Perceptron
-date: 2017-09-30 22:35:01
+title: EM Algorithm and Gaussian Mixture Model
+date: 2017-11-19 10:23:41
 tag: [Machine Learning]
 category: Machine_Learning_EN
 ---
 
 # Introduction
+
 <!-- more -->
 
-# Model
 
 # Alogrithm
 
@@ -20,5 +20,11 @@ category: Machine_Learning_EN
 
 # Summary
 
+See [GMM and EM]() for more.
+
 
 # Reference
+
+# related Articles
+0. Bayesian Theory
+1. K-means
