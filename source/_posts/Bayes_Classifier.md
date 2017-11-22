@@ -7,7 +7,7 @@ mathjax: true
 
 # General Idea
 Generally speaking, to solve a classification problem, what we need to do is to get the optimal estimation on the posterior:
-$$C := \mathop{\arg\,\max}\limits_{c_k}P(Y=c_k|X=x)\tag{1}\label{eq:1}$$
+$$h(x) := \mathop{\arg\,\max}\limits_{c_k}P(Y=c_k|X=x)\tag{1}\label{eq:1}$$
 There are 2 general methods to do this. First one is directly modeling the posterior based on training data and to do prediction based on that. This is called **Discriminative Model**, e.g., BP, LDA, SVM, etc. Another type is **generative Models**, which calculates $P(Y=c_k|X=x)$ using:
 $$P(Y=c_k|X=x) := \frac {P(x,c_k)}{P(x)}\tag{2}\label{eq:2}$$
 Naive Bayes Classifier is the second one.
@@ -34,7 +34,7 @@ So now we need to calculate $P(X=x|Y=c_k)$ and $P(Y=c_k)$. Let's check them one 
    This term is called **class-conditional probability** or **likelihood**. It is hard to calculate directly since it could have lots of combinations for features of $x$. For example, $x$ has $d$ features, and each feature is a binary value(0 or 1). Even though in this pretty simple situation, there are still $2^d$ different combinations. However, it is impossible that the trainning data contains all of those combinations. That means, lots of combinations which do not appear in training dataset will be considered impossible happened(since $P(X=x)=0$). Obviously this is not correct.
 
    To solve this problem, Naive Classifier assuming that:
-   > Every feature is independent with each other.
+   > the value of a particular feature is independent of the value of any other feature, given the class variable
 
    Based on this assumption,
    $$P(Y=c^k|X=x) := \prod_{i=1}^{d} P(x_i|c^k)\tag{7}\label{eq:7}$$
@@ -61,5 +61,6 @@ Equation $\ref{eq:9}$ is the Naive Bayes Classifier expression.
 
 # Optimization
 ## Laplacian Correction
+## Semi-Naive Bayes Classifier
 # Summary
 [todo]
