@@ -6,7 +6,7 @@ mathjax: true
 ---
 
 # Introduction to EM
-Previously I talked about [Naive Bayes Classifier](todo). In that case, all variables are observable. However, sometimes there could be some latent variables in some models. EM(Expection-Maximization) algorithm could resolve those models containing latent variables.
+Previously I talked about [Naive Bayes Classifier](http://liuzhiwei.me/Bayes_Classifier/). In that case, all variables are observable. However, sometimes there could be some latent variables in some models. EM(Expection-Maximization) algorithm could resolve those models containing latent variables.
 <!-- more -->
 
 # Gaussian Mixture Models
@@ -19,8 +19,8 @@ Simply speaking, we can explain $\pi_k$ as the weights of each Gaussian.
 
 However, in order to understand what the latent variable is and how it works, first we explain the formulation of the equation $\ref{eq:GMM}$ from the point of latent variables.
 
-Imaging we have a K-dimensional binary vector $\mathcal{z}$ in which the $z^{th}$ element $\mathcal{z_k}$ equal to $\mathcal{1}$ and others are $\mathcal{0}$. Now we need to define $p(x, z)$:
-$$p(x, z) := p(x|z)p(z)\tag{2}\label{eq:2}$$
+Imaging we have a K-dimensional binary vector $\mathcal{z}$ in which the $z^{th}$ element $\mathcal{i_k}$ equal to $\mathcal{1}$ and others are $\mathcal{0}$. Now we need to define $p(x, z)$:
+$$p(x, z) := p(x|z)\cdot p(z)\tag{2}\label{eq:2}$$
 
 in equation $\ref{eq:2}$, we need to consider $p(z)$ and $p(x|z)$. 
 1. $p(z)$
@@ -41,14 +41,14 @@ in equation $\ref{eq:2}$, we need to consider $p(z)$ and $p(x|z)$.
    $$p(x|z) := \prod_{k=1}^K \mathcal{N}(x|\mu_k, \, \Sigma_k)^{z_k}\tag{6}\label{eq:6}$$
 
 Now we can calculate the marginal distribution of $p(x, z)$ over $\mathcal{x}$:
-$$p(x) := \sum_{z} p(z)p(x|z)\tag{7}\label{eq:7}$$
+$$p(x) := \sum_{z} p(z)\cdot p(x|z)\tag{7}\label{eq:7}$$
 
 put equation $\ref{eq:4}$ and $\ref{eq:6}$ into equation $\ref{eq:7}$,
 $$p(x) := \sum_{k=1}^K \pi_k \mathcal{N}(x|\mu_k, \, \Sigma_k)\tag{8}\label{eq:8}$$
 
 Equation $\ref{eq:8}$ is exactly same with equation $\ref{eq:GMM}$, so now we succefully explained the GMM from the point of latent variables.
 
-Also, we need to calculate the conditional probability of $\mathcal{z}$ given $\mathcal{x}$, let us call it $\gamma(z_k)$,
+Next, we need to calculate the conditional probability of $\mathcal{z}$ given $\mathcal{x}$, let us call it $\gamma(z_k)$,
 $$\gamma(z_k) := p(z_k=1|x) := \frac {p(z_k=1)\cdot p(x|z_k=1)}{p(x)}\tag{9}\label{eq:9}$$
 
 put equation $\ref{eq:3}$, $\ref{eq:5}$ and $\ref{eq:8}$ into equation $\ref{eq:9}$,
