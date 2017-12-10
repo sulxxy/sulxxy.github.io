@@ -1,6 +1,6 @@
 title: Fixed the error of "The server quit without updating pid file (/usr/local/mysql/data/)" when starting MySQL server
 date: 2016.09.11 18:19:46
-categories: Technique
+
 tags: [MySQL]
 ---
 

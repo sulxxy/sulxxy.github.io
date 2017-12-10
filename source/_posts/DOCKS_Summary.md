@@ -1,6 +1,6 @@
 title: DOCKS总结
 date: 2015-09-20 15:44:11 
-categories: Technique
+
 tags: [ DOCKS, NLP ]
 ---
 

@@ -1,6 +1,6 @@
 title: Post HEXO Blogs on Several Computers
 date: 2016-04-29 21:56:32
-categories: Technique
+
 tags: [Git, Hexo]
 ---
 

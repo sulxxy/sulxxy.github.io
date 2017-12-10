@@ -1,6 +1,6 @@
 title: Fix conflicts while pulling using git
 date: 2017-02-24 14:37:12
-categories: Technique
+
 tags: [Git]
 ---
 

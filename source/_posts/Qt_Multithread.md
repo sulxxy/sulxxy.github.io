@@ -1,6 +1,6 @@
 title: Qt Note 6 -- Multithread
 date: 2015-08-07 15:45:29
-categories: Technique
+
 tags: [Qt]
 ---
 

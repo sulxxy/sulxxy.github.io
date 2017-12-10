@@ -1,12 +1,11 @@
 title: git tool -- checkout
 date: 2017-02-24 15:13:12
-categories: Technique
+
 tags: [Git]
 ---
 
 ## Intro 
 **git checkout** has 3 functions: checkout branch, checkout commit, checkout file.
-<!-- more -->
 
 ## checkout branch
 This are used to switch to a certain branch, e.g.,
@@ -17,6 +16,7 @@ then you will work *benchmarking* branch. You can check the current branch you a
 ```sh
 git branch
 ```
+<!-- more -->
 ## checkout commit
 This command is used for switching(go back) to a certain commit and all files under working directory will be update to that version. Before doing this, we need to get the exact serial numbers of commit so that we know which commit we need to go to. To do this, we uses:
 ```sh

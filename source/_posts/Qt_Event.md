@@ -1,6 +1,6 @@
 title: Qt Note 4 -- Event
 date: 2015-08-02 16:45:34
-categories: Technique
+
 tags: [Qt]
 ---
 

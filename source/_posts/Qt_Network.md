@@ -1,6 +1,6 @@
 title: Qt Note 5 -- Network
 date: 2015-08-05 21:52:23
-categories: Technique
+
 tags: [Qt]
 ---
 

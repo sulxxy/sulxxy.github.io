@@ -1,6 +1,6 @@
 title:  Tiny6410无法使用usb下载功能的解决办法
 date: 2015-06-05 08:11:23
-categories: Technique
+
 tags: [Tiny6410, Embedded Systems]
 ---
 

@@ -1,6 +1,6 @@
 title: Fix the Perl warning setting locale failed on Raspberry Pi
 date: 2016-08-15 10:29:38
-categories: Technique
+
 tags: [Raspberry Pi, Embedded Systems]
 ---
 

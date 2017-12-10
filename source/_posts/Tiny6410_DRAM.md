@@ -1,6 +1,6 @@
 title: Tiny6410 Note 2 -- DRAM Controller
 date: 2015-06-16 09:14:00
-categories: Technique
+
 tags: [Embedded Systems, Tiny6410]
 ---
 

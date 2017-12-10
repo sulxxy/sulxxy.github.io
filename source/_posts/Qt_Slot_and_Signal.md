@@ -1,6 +1,6 @@
 title: Qt Note 2 -- Signals and Slots
 date: 2015-07-31 10:32:39
-categories: Technique
+
 tags: [Qt]
 ---
 

@@ -1,6 +1,6 @@
 title: Tiny6410 Note 3 -- Nand Flash Controller
 date: 2015-06-28 09:18:00
-categories: Technique
+
 tags: [Embedded Systems, Tiny6410]
 ---
 

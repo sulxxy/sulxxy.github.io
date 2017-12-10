@@ -1,6 +1,6 @@
 title: SpeakerIdentification in DOCKS
 date: 2015-08-30 10:55:28
-categories: Technique
+
 tags: [ DOCKS, NLP ]
 ---
 

@@ -1,6 +1,6 @@
 title: GAWK usages
 date: 2016-04-27 10:29:34
-categories: Technique
+
 tags: [Linux, Shell]
 ---
 

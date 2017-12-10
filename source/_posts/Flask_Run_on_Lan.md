@@ -1,6 +1,6 @@
 title: Make Flask program visible across the network
 date: 2017-01-22 11:25:12
-categories: Technique
+
 tags: [ Python, Flask ]
 ---
 
