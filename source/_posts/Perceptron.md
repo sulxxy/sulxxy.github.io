@@ -1,7 +1,7 @@
-title: Linear Classification
+title: Perceptron
 date: 2017-12-10 16:05:26
-tag: [Machine Learning]
-category: Machine_Learning
+tag: [Machine Learning, Neural Network]
+category: Neural Network
 mathjax: true
 ---
 
@@ -52,21 +52,7 @@ Based on those, we could have the general framework for **Perceptron Algorithm**
 To sum up, perceptron algorithm tries to find a hyperplane which could divide the data points exactly to 2 parts. However, this is a really ideal situation. In most case, it is impossible to find a hyperplane for the perfect division. The simplest case is exclusive or($x\_1 \oplus x\_2$). Percetron Could not solve this problem. Using **Multiple Layer Perceptron(MLP)** could solve this problem.
 
 
-# Model
-**Linear Discriminant Analysis(LDA)** is also called **Fisher's Linear Discriminant Analysis**.  
-
-# Alogrithm
-
-# Example
-## Problem Description
-## Solution
-1. General idea
-
-2. Sample code
-
+# Multiple Layer Perceptron
 # Summary
-
-See [GMM and EM]() for more.
-
 
 # Reference
