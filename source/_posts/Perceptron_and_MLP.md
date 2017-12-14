@@ -49,7 +49,9 @@ Based on those, we could have the general framework for **Perceptron Algorithm**
 > $\qquad \qquad$ end for
 > **Output**: $w$
 
-To sum up, perceptron algorithm tries to find a hyperplane which could divide the data points exactly to 2 parts. However, this is a pretty ideal situation. In most case, the data are not separable. The simplest case is exclusive or($x\_1 \oplus x\_2$). Perceptron learning algorithm could not solve this problem. To do this, **Multiple Layer Perceptron(MLP)** is introduced.
+To sum up, perceptron algorithm tries to find a hyperplane which could divide the data points exactly to 2 parts. However, this is a pretty ideal situation. In most case, the data are not separable. The simplest case is exclusive or($x\_1 \oplus x\_2$). Perceptron learning algorithm could not solve this problem. Concreately, the $w$ could not converge forever. There would be 
+
+To do this, **Multiple Layer Perceptron(MLP)** is introduced.
 
 # Multiple Layer Perceptron
 Compared to perceptron, MLP has some hidden layers. In single layer perceptron, in every iteration, we train w, and then check feasibility and optimize w. After several iterations, we could got a nice $w$. In MLP, the basic idea is almost the same but with more complex details(this kind of methodology is called **Expection Maximum**. I wrote a blog about this before, see [here](http://liuzhiwei.me/EM_GMM/) for more information). We call this algorithm **Error BackPropagation**.
@@ -60,8 +62,8 @@ To explain and demostrate the procedure of error back propagation algorithm easi
   we have a dataset $D = \\{(x\_1, y\_1), (x\_2, y\_2), ..., (x\_m, y\_m)\\}, \, x\_i \in \Bbb{R}^D, \, y\_i \in \Bbb{R}^K$, which means input has $D$ features and output is a $K$ dimensional vector. Also, we have $M$ hidden units as we could see from the diagram. 
 ![Network Architecture](http://7xssst.com1.z0.glb.clouddn.com/nn_example.jpg)
 
-First, let us think about the needed parameters and their sizes respectively. Obviously we need weight $w$ and bias $b$. From the architecture, we know that each node in a layer has connections with all of the nodes of its (right-side) adjacent layer(that is way MLP is also called **Fully Connected Network(FCN)**).
-  Considering the weights and bias between input layer and hidden layer, 
+First, let us think about the needed parameters and their sizes respectively. Obviously we need weight $w$ and bias $b$. From the architecture, we know that each node in a layer has connections with all of the nodes of its (right-side, since what we are talking about is **Forward Feed Network**) adjacent layer(that is way MLP is also called **Fully Connected Network(FCN)**).
+  Considering the weights and bias between input layer and hidden layer, we use the notation $w\_{MD}^{(1)}$ for the weights between them. The superscript $(1)$ is the index and the subscript $MD$ .
 
 ## Problem
 
