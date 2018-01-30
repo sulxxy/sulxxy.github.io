@@ -7,7 +7,7 @@ mathjax: true
 
 # General Idea
 Generally speaking, to solve a classification problem, what we need to do is to get the optimal estimation on the posterior:
-$$h(x) := \mathop{\arg\,\max}\limits\_{c\_k}P(Y=c\_k|X=x)\tag{1}\label{eq:1}$$
+$$h(x) := \underset{c\_k}{\arg \max} \, P(Y=c\_k|X=x) \tag{1}\label{eq:1}$$
 There are 2 general methods to do this. First one is directly modeling the posterior based on training data and to do prediction based on that. This is called **Discriminative Model**, e.g., BP, LDA, SVM, etc. Another type is **generative Models**, which calculates $P(Y=c\_k|X=x)$ using:
 $$P(Y=c\_k|X=x) := \frac {P(x,c\_k)}{P(x)}\tag{2}\label{eq:2}$$
 Naive Bayes Classifier is the second one.
