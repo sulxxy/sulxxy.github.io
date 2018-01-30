@@ -1,5 +1,5 @@
 title: Support Vector Machine
-date: 2018-01-23 21:13:11
+date: 2018-01-30 21:13:11
 tag: [Machine Learning]
 category: Machine_Learning
 mathjax: true
