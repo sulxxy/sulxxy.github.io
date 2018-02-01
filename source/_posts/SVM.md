@@ -8,7 +8,7 @@ mathjax: true
 
 # Maximum(Hard) Margin Classifier
 Let us start from the simplest situation: 2-class classification problem using linear models with the form:
-$$ \mathcal{y}(\mathbf{x}) = \mathbf{w}^\top \mathcal{x} + b \label{eq:1}\tag{1}$$
+$$ \mathcal{y}(\mathbf{x}) = \mathbf{w}^\top \mathbf{x} + b \label{eq:1}\tag{1}$$
 The training set data comprises $N$ input vectors $\mathbf{x\_1}$, ..., $\mathbf{x\_N}$, with corresponding labels $\mathcal{t}\_1$, ..., $\mathcal{t}\_N$, where $\mathcal{t\_n} \in \\{-1, 1\\}$.
 <!-- more -->
 We shall assume that the training set is linearly separable now, then there must exist at least one choice of the parameter $\mathbf{w}$ and $b$ such that the data points could be split into 2 parts. In support vector machines, the decision boundary is the one for which the margin is maximized. Margin is the smallest distance between the decision boundary and any of the samples. 
