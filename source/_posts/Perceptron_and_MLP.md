@@ -64,15 +64,17 @@ First, let us think about the needed parameters and their sizes respectively. Ob
 
 
 ## Programming
-See GitHub repository [ML Algorithms]()
+See GitHub repository [ML Algorithms/MLP](https://github.com/sulxxy/ML_Algorithms/tree/master/MLP/) for more details.
 
-# Summary
+# todo
+move error propagation to another post
+
 
 # Reference
 1. Bishop: Pattern Recognition and Machine Learning, Springer-Verlag, 2006
 
 # Further More
 1. [Expection Maximum and Gaussian Mixture Model](http://liuzhiwei.me/EM_GMM/)
-2. [Convolutional Neural Network]()
-3. [Recurrent Neural Network]()
-4. [Radical Basis Function]()
+2. [Convolutional Neural Network](http://liuzhiwei.me/CNN)
+3. [Recurrent Neural Network](http://liuzhiwei.me/RNN)
+4. [Radical Basis Function](http://liuzhiwei.me/RBF)
