@@ -4,8 +4,6 @@ category: Machine_Learning
 mathjax: true
 ---
 
-
-
 # Feed-forward Network
 Considering a basic network architecture, first a linear combination of input data $x\_1, \ldots, x\_D$:
 <!-- more -->
@@ -20,8 +18,14 @@ $$ y\_k(\mathbf{x}, \mathbf{w}) = \sigma\Biggl(\sum\_{j=1}^Mw\_{kj}^{(2)}h\biggl
 if we absorb the biases, $(\ref{eq:4})$ could be simplified like:
 $$ y\_k(\mathbf{x}, \mathbf{w}) = \sigma\Biggl(\sum\_{j=0}^Mw\_{kj}^{(2)}h\biggl(\sum\_{i=0}^Dw\_{ji}^{(1)}x\_i \biggr) \Biggr) \label{eq:5} \tag{5} $$
 
-
 # Network Training
+Now we have the network architecture. Next step is to define the error cost function. Simply speaking, it could be defined like:
+$$ E(\mathbf{w}) = \frac{1}{2}\sum\_{n=1}^{N}{\Vert \mathbf{y}(\mathbf{x}\_n, \mathbf{w}) - t\_n\Vert}^{2} \label{eq:6} \tag{6} $$
+In particular, this cost function could be interpreted from probabilistic perspective. [todo, explain this using probabilistic interpretation].
 
 # Error Backpropagation
+
+
+# todo
+1. todo, explain ($\ref{eq:6}$) using probabilistic interpretation
 
