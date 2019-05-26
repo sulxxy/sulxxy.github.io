@@ -4,6 +4,8 @@ db.json
 dp.sh
 *.log
 package.json
+package-lock.json
+yarn.lock
 .gitmodules
 scaffolds/
 node_modules/
