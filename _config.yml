@@ -15,10 +15,10 @@ avatar: /img/avatar.jpg
 menu:
   home: /
   #categories: /categories
-  #about: /about
-  archives: /archives
   tags: /tags
-  #commonweal: /404.html
+  archives: /archives
+  about: /resume.html
+  commonweal: /404.html
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
