@@ -3,7 +3,7 @@
   <entry>
     <title>EM Algorithm and Gaussian Mixture Model</title>
     <url>/EM_GMM/</url>
-    <content><![CDATA[<h1 id="Introduction-to-EM"><a href="#Introduction-to-EM" class="headerlink" title="Introduction to EM"></a>Introduction to EM</h1><p>Previously I talked about <span class="exturl" data-url="aHR0cDovL2xpdXpoaXdlaS5tZS9CYXllc19DbGFzc2lmaWVyLw==">Naive Bayes Classifier<i class="fa fa-external-link-alt"></i></span>. In that case, all variables are observable. However, sometimes there could be some latent variables in some models. EM(Expection-Maximization) algorithm could resolve those models containing latent variables.</p>
+    <content><![CDATA[<h1 id="Introduction-to-EM"><a href="#Introduction-to-EM" class="headerlink" title="Introduction to EM"></a>Introduction to EM</h1><p>Previously I talked about <a href="http://liuzhiwei.me/Bayes_Classifier/">Naive Bayes Classifier</a>. In that case, all variables are observable. However, sometimes there could be some latent variables in some models. EM(Expection-Maximization) algorithm could resolve those models containing latent variables.</p>
 <span id="more"></span>
 
 <h1 id="Gaussian-Mixture-Models"><a href="#Gaussian-Mixture-Models" class="headerlink" title="Gaussian Mixture Models"></a>Gaussian Mixture Models</h1><p>Before talking general case of EM algorithm, we introduce the Gaussian Mixture Models(GMM) and calculate its parameters using EM.</p>
