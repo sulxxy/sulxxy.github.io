@@ -49,4 +49,16 @@
         <tag>Machine Learning</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Write A Random Generator By Yourself</title>
+    <url>/random_generator/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1>]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+        <tag>CPP</tag>
+      </tags>
+  </entry>
 </search>
