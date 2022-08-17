@@ -62,6 +62,21 @@
       </tags>
   </entry>
   <entry>
+    <title>Publish Your WordPress Post in Automation with GitHub Actions</title>
+    <url>/automated_wordpress_post/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>Python script:</p>
+<ol>
+<li>markdown with mathjax</li>
+<li>render html with pandoc</li>
+<li>Post to WordPress via restful API</li>
+</ol>
+<p>Trigger the above script through GitHub action.</p>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Write A Random Generator By Yourself</title>
     <url>/random_generator/</url>
     <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1>]]></content>
