@@ -50,6 +50,18 @@
       </tags>
   </entry>
   <entry>
+    <title>auto in CPP</title>
+    <url>/auto_in_cpp/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>auto&amp;, auto</p>
+]]></content>
+      <categories>
+        <category>programming_languages</category>
+      </categories>
+      <tags>
+        <tag>CPP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Write A Random Generator By Yourself</title>
     <url>/random_generator/</url>
     <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1>]]></content>
@@ -57,8 +69,8 @@
         <category>Math</category>
       </categories>
       <tags>
-        <tag>Math</tag>
         <tag>CPP</tag>
+        <tag>Math</tag>
       </tags>
   </entry>
 </search>
