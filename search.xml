@@ -104,4 +104,15 @@
         <tag>CPP</tag>
       </tags>
   </entry>
+  <entry>
+    <title>XML Schema</title>
+    <url>/xml_schema/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1>]]></content>
+      <categories>
+        <category>misc</category>
+      </categories>
+      <tags>
+        <tag>XML</tag>
+      </tags>
+  </entry>
 </search>
