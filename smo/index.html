@@ -72,7 +72,7 @@
 
 
 
-  <meta name="keywords" content="Machine Learning," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -85,17 +85,16 @@
 
 
 
-<meta name="description" content="Introduction to EMPreviously I talked about Naive Bayes Classifier. In that case, all variables are observable. However, sometimes there could be some latent variables in some models. EM(Expection-Max">
+<meta name="description" content="Introductiontemporary created in order to be referenced by other posts.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="EM Algorithm and Gaussian Mixture Model">
-<meta property="og:url" content="http://www.liuzhiwei.me/EM_GMM/index.html">
+<meta property="og:title" content="Sequential Minimal Optimization Algorithm">
+<meta property="og:url" content="http://www.liuzhiwei.me/smo/index.html">
 <meta property="og:site_name" content="COMMENTARIUM">
-<meta property="og:description" content="Introduction to EMPreviously I talked about Naive Bayes Classifier. In that case, all variables are observable. However, sometimes there could be some latent variables in some models. EM(Expection-Max">
+<meta property="og:description" content="Introductiontemporary created in order to be referenced by other posts.">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2017-11-23T11:43:11.000Z">
-<meta property="article:modified_time" content="2022-08-19T08:20:56.309Z">
+<meta property="article:published_time" content="2018-01-25T11:13:11.000Z">
+<meta property="article:modified_time" content="2022-08-21T13:06:29.538Z">
 <meta property="article:author" content="Zhiwei Liu">
-<meta property="article:tag" content="Machine Learning">
 <meta name="twitter:card" content="summary">
 
 
@@ -126,13 +125,13 @@
 
 
 
-  <link rel="canonical" href="http://www.liuzhiwei.me/EM_GMM/"/>
+  <link rel="canonical" href="http://www.liuzhiwei.me/smo/"/>
 
 
 
 
 
-  <title>EM Algorithm and Gaussian Mixture Model | COMMENTARIUM</title>
+  <title>Sequential Minimal Optimization Algorithm | COMMENTARIUM</title>
   
 
 
@@ -248,7 +247,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.liuzhiwei.me/EM_GMM/">
+    <link itemprop="mainEntityOfPage" href="http://www.liuzhiwei.me/smo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -265,7 +264,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">EM Algorithm and Gaussian Mixture Model</h1>
+          <h1 class="post-title" itemprop="name headline">Sequential Minimal Optimization Algorithm</h1>
         
 
         <div class="post-meta">
@@ -277,8 +276,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-23T11:43:11+00:00">
-                2017-11-23
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-25T11:13:11+00:00">
+                2018-01-25
               </time>
             
 
@@ -300,8 +299,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Machine-Learning/" itemprop="url" rel="index">
-                    <span itemprop="name">Machine_Learning</span>
+                  <a href="/categories/machine-learning/" itemprop="url" rel="index">
+                    <span itemprop="name">machine_learning</span>
                   </a>
                 </span>
 
@@ -337,44 +336,8 @@
       
 
       
-        <h1 id="Introduction-to-EM"><a href="#Introduction-to-EM" class="headerlink" title="Introduction to EM"></a>Introduction to EM</h1><p>Previously I talked about <a target="_blank" rel="noopener" href="http://liuzhiwei.me/Bayes_Classifier/">Naive Bayes Classifier</a>. In that case, all variables are observable. However, sometimes there could be some latent variables in some models. EM(Expection-Maximization) algorithm could resolve those models containing latent variables.</p>
+        <h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>temporary created in order to be referenced by other posts.</p>
 <span id="more"></span>
-
-<h1 id="Gaussian-Mixture-Models"><a href="#Gaussian-Mixture-Models" class="headerlink" title="Gaussian Mixture Models"></a>Gaussian Mixture Models</h1><p>Before talking general case of EM algorithm, we introduce the Gaussian Mixture Models(GMM) and calculate its parameters using EM.</p>
-<h2 id="What-is-GMM"><a href="#What-is-GMM" class="headerlink" title="What is GMM?"></a>What is GMM?</h2><p>GMM is a composition of several components with Gaussian distribution and different components. It could be written like,<br>$$p(x) :&#x3D; \sum_{k&#x3D;1}^K \pi_k\mathcal{N}(x|\mu_k, , \Sigma_k) \tag{1}\label{eq:GMM}$$</p>
-<p>Simply speaking, we can explain $\pi_k$ as the weights of each Gaussian.</p>
-<p>However, in order to understand what the latent variable is and how it works, first we explain the formulation of the equation $\ref{eq:GMM}$ from the point of latent variables.</p>
-<p>Imaging we have a K-dimensional binary vector $\mathcal{z}$ in which the $k^{th}$ element $\mathcal{i_k}$ equal to $\mathcal{1}$ and others are $\mathcal{0}$. Now we need to define $p(x, z)$:<br>$$p(x, z) :&#x3D; p(x|z)\cdot p(z)\tag{2}\label{eq:2}$$</p>
-<p>in equation $\ref{eq:2}$, we need to consider $p(z)$ and $p(x|z)$. </p>
-<ol>
-<li><p>$p(z)$</p>
-<p>$p(z)$ is the marginal distribution of $p(x, z)$ over $\mathcal{z}$, assuming it equals to the mixing coefficients $\pi_k$, so we have:<br>$$p(z_k &#x3D; 1) :&#x3D; \pi_k\tag{3}\label{eq:3}$$</p>
-<p>since in vector $\mathcal{z}$, all values except \(\mathcal{z_k}\) are $\mathcal{0}$, so equation $\ref{eq:3}$ can be written like:</p>
-<p>$$p(z) :&#x3D; \prod_{k&#x3D;1}^K \pi_k^{z_k}\tag{4}\label{eq:4}$$</p>
-</li>
-<li><p>$p(x|z)$</p>
-<p>Also, assuming that the conditional distribution of $\mathcal{x}$ given a particular value for $\mathcal{z}$ is a Gaussian,<br>$$p(x|z_k&#x3D;1) :&#x3D; \mathcal{N}(x|\mu_k, , \Sigma_k)\tag{5}\label{eq:5}$$</p>
-<p>Similarly, equation $\ref{eq:5}$ can be written like:<br>$$p(x|z) :&#x3D; \prod_{k&#x3D;1}^K \mathcal{N}(x|\mu_k, , \Sigma_k)^{z_k}\tag{6}\label{eq:6}$$</p>
-</li>
-</ol>
-<p>Now we can calculate the marginal distribution of $p(x, z)$ over $\mathcal{x}$:<br>$$p(x) :&#x3D; \sum_{z} p(z)\cdot p(x|z)\tag{7}\label{eq:7}$$</p>
-<p>put equation $\ref{eq:4}$ and $\ref{eq:6}$ into equation $\ref{eq:7}$,<br>$$p(x) :&#x3D; \sum_{k&#x3D;1}^K \pi_k \mathcal{N}(x|\mu_k, , \Sigma_k)\tag{8}\label{eq:8}$$</p>
-<p>Equation $\ref{eq:8}$ is exactly same with equation $\ref{eq:GMM}$, so now we succefully explained the GMM from the point of latent variables.</p>
-<p>Next, we need to calculate the conditional probability of $\mathcal{z}$ given $\mathcal{x}$, let us call it $\gamma(z_k)$,<br>$$\gamma(z_k) :&#x3D; p(z_k&#x3D;1|x) :&#x3D; \frac {p(z_k&#x3D;1)\cdot p(x|z_k&#x3D;1)}{p(x)}\tag{9}\label{eq:9}$$</p>
-<p>put equation $\ref{eq:3}$, $\ref{eq:5}$ and $\ref{eq:8}$ into equation $\ref{eq:9}$,<br>$$\gamma(z_k) :&#x3D; \frac {\pi_k\mathcal{N}(\mu_k,,\Sigma_k)}{\sum_{j&#x3D;1}^K\mathcal{N}(x|\mu_j, , \Sigma_j)}\tag{10}\label{eq:10}$$</p>
-<p>To prepare for the explaination using EM algorithm next, one important thing has to be emphasized:</p>
-<ol>
-<li>in equation $\ref{eq:8}$, $\pi_k$ should be seen as the <strong>prior</strong> of $z_k&#x3D;1$(this is what equation $\ref{eq:3}$ is saying);</li>
-<li>in equation $\ref{eq:10}$, $\gamma(z_k)$ should be seen as <strong>posterior</strong> once we obeserved $\mathcal{x}$(this is what equation $\ref{eq:9}$ saying).</li>
-</ol>
-<h2 id="EM-algorithm-on-GMM"><a href="#EM-algorithm-on-GMM" class="headerlink" title="EM algorithm on GMM"></a>EM algorithm on GMM</h2><h1 id="EM-algorithm-in-general"><a href="#EM-algorithm-in-general" class="headerlink" title="EM algorithm in general"></a>EM algorithm in general</h1><h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol>
-<li>Bishop: Pattern Recognition and Machine Learning, Springer-Verlag, 2006</li>
-<li>李航：统计学习方法，清华大学出版社，2012</li>
-</ol>
-<h1 id="related-Articles"><a href="#related-Articles" class="headerlink" title="related Articles"></a>related Articles</h1><ol start="0">
-<li>Bayesian Theory</li>
-<li>K-means</li>
-</ol>
 
       
     </div>
@@ -390,12 +353,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Machine-Learning/" rel="tag"># Machine Learning</a>
-          
-        </div>
-      
 
       
       
@@ -405,14 +362,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/perceptron_and_mlp/" rel="next" title="Perceptron and MLP">
+                <i class="fa fa-chevron-left"></i> Perceptron and MLP
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/automated_wordpress_post/" rel="prev" title="Publish Your WordPress Post in Automation with GitHub Actions">
-                Publish Your WordPress Post in Automation with GitHub Actions <i class="fa fa-chevron-right"></i>
+              <a href="/linear_regression/" rel="prev" title="Linear Regression">
+                Linear Regression <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -490,7 +451,7 @@
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -501,21 +462,12 @@
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">categories</span>
                 
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">tags</span>
-                
-              </div>
             
 
           </nav>
@@ -552,7 +504,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Introduction-to-EM"><span class="nav-number">1.</span> <span class="nav-text">Introduction to EM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Gaussian-Mixture-Models"><span class="nav-number">2.</span> <span class="nav-text">Gaussian Mixture Models</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#What-is-GMM"><span class="nav-number">2.1.</span> <span class="nav-text">What is GMM?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#EM-algorithm-on-GMM"><span class="nav-number">2.2.</span> <span class="nav-text">EM algorithm on GMM</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#EM-algorithm-in-general"><span class="nav-number">3.</span> <span class="nav-text">EM algorithm in general</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Summary"><span class="nav-number">4.</span> <span class="nav-text">Summary</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">5.</span> <span class="nav-text">Reference</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#related-Articles"><span class="nav-number">6.</span> <span class="nav-text">related Articles</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li></ol></div>
             
 
           </div>
