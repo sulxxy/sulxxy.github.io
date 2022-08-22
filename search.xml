@@ -87,6 +87,15 @@
       </categories>
   </entry>
   <entry>
+    <title>Bazel Usage</title>
+    <url>/bazel_usage/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">std::once_flag</span><br><span class="line">std::call_once</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>programming</category>
+      </categories>
+  </entry>
+  <entry>
     <title>EM Algorithm and Gaussian Mixture Model</title>
     <url>/em_gmm/</url>
     <content><![CDATA[<h1 id="Introduction-to-EM"><a href="#Introduction-to-EM" class="headerlink" title="Introduction to EM"></a>Introduction to EM</h1><p>Previously I talked about <a href="http://liuzhiwei.me/Bayes_Classifier/">Naive Bayes Classifier</a>. In that case, all variables are observable. However, sometimes there could be some latent variables in some models. EM(Expection-Maximization) algorithm could resolve those models containing latent variables.</p>
