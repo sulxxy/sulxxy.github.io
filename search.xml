@@ -90,7 +90,7 @@
   <entry>
     <title>Bazel Usage</title>
     <url>/bazel_usage/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">std::once_flag</span><br><span class="line">std::call_once</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This is still a draft.</p>
 ]]></content>
       <categories>
         <category>programming</category>
@@ -145,7 +145,7 @@
   <entry>
     <title>GTest Usage</title>
     <url>/gtest/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">std::once_flag</span><br><span class="line">std::call_once</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>GTest with bazel.</p>
 ]]></content>
       <categories>
         <category>programming</category>
