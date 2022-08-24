@@ -3,7 +3,8 @@
   <entry>
     <title>auto in CPP</title>
     <url>/auto_in_cpp/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>auto&amp;, auto<br>and consider to pass it as parameter of a function.<br>中文测试2。</p>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>auto&amp;, auto<br>and consider to pass it as parameter of a function.</p>
+<p>构造函数初始化列表中初始化基类成员报错</p>
 ]]></content>
       <categories>
         <category>programming</category>
@@ -139,6 +140,15 @@
 ]]></content>
       <categories>
         <category>machine_learning</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>GTest Usage</title>
+    <url>/gtest/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">std::once_flag</span><br><span class="line">std::call_once</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>programming</category>
       </categories>
   </entry>
   <entry>
