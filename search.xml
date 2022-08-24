@@ -145,7 +145,7 @@
   <entry>
     <title>GTest Usage</title>
     <url>/gtest/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>GTest with bazel.</p>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>GTest with bazel. still a draft.</p>
 ]]></content>
       <categories>
         <category>programming</category>
@@ -266,7 +266,8 @@
   <entry>
     <title>XML Schema</title>
     <url>/xml_schema/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1>]]></content>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>still draft.</p>
+]]></content>
       <categories>
         <category>misc_tech_note</category>
       </categories>
