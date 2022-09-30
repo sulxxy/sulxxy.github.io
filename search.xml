@@ -211,7 +211,7 @@
   <entry>
     <title>Difference Between Gradient Descent and Stochastic Gradient Descent</title>
     <url>/sgd_and_gd/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This post mainly discusses the difference between gradient gescent (a.k.a. vanilla gradient descent or batch gradient descent) and stochastic gradient descent (a.k.a. online gradient descent). We firstly show and compare the 2 alogorithms’ implementations, which is quite simple. After that, we will analyse these 2 algorithms from the convergence rate perspective. At the end, the summaries are given.</p>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This post mainly discusses the difference between gradient descent (a.k.a. vanilla gradient descent or batch gradient descent) and stochastic gradient descent (a.k.a. online gradient descent). We firstly show and compare the 2 alogorithms’ implementations, which is quite simple. After that, we will analyse these 2 algorithms from the convergence rate perspective. At the end, the summaries are given.</p>
 <span id="more"></span>
 
 <h1 id="Algorithm-Implementation"><a href="#Algorithm-Implementation" class="headerlink" title="Algorithm Implementation"></a>Algorithm Implementation</h1><p>In this part, we mainly concentrate on the implementation of both algorithms to get an intuive difference between them. Assumes we have loss function $L(\mathbf{w}; \mathbf{x})$, in which $\mathbf{w}$ is the parameters to train and $\mathbf{x}$ is the input data.<br>For gradient descent (GD),</p>
