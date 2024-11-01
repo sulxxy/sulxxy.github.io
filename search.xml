@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>/apollo_planner/</url>
+    <content><![CDATA[<p>PolulateTrajectoryProtobuf: write data into ADCTrajectory</p>
+]]></content>
+  </entry>
+  <entry>
     <title>auto in CPP</title>
     <url>/auto_in_cpp/</url>
     <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>auto&amp;, auto<br>and consider to pass it as parameter of a function.</p>
@@ -90,11 +96,44 @@
   <entry>
     <title>Bazel Usage</title>
     <url>/bazel_usage/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This is still a draft.</p>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This is still a draft. This blog post is about how to use Bazel to build a C++ project. I will use the <a href="https://docs.bazel.build/versions/master/tutorial/cpp.html">Bazel tutorial</a> as a reference.</p>
 ]]></content>
       <categories>
         <category>programming</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Coordinate Transformation</title>
+    <url>/coordinate_trans/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This is still a draft.</p>
+<p>This blog post is about coordinate transformation. I will use the <a href="https://en.wikipedia.org/wiki/Coordinate_transformation">Coordinate Transformation</a> as a reference.</p>
+<p>There are multiple types of coordinate transformation. The most common ones are the rotation, translation, and scaling. The rotation is used to rotate the coordinate system. The translation is used to translate the coordinate system. The scaling is used to scale the coordinate system.</p>
+<p>The first one is world coordinate system. The world coordinate system is the coordinate system that is used to describe the world. The second one is the camera coordinate system. The camera coordinate system is the coordinate system that is used to describe the camera. The third one is the image coordinate system. The image coordinate system is the coordinate system that is used to describe the image.</p>
+<p>The road coordinate system is the coordinate system that is used to describe the road. The road coordinate system is the coordinate system that is used to describe the road. The road coordinate system is the coordinate system that is used to describe the road. The road coordinate system is the coordinate system that is used to describe the road.</p>
+<p>Frenet system commonly used in autonomous driving systems. The planning module uses the Frenet system to describe the road. The planning module uses the Frenet system to describe the road. The planning module uses the Frenet system to describe the road. The planning module uses the Frenet system to describe the road.</p>
+<p>Transform world to camera coordinate system is done by the following equation: $$\begin{bmatrix} x_{camera} \ y_{camera} \ z_{camera} \end{bmatrix} &#x3D; \begin{bmatrix} R_{camera_world} &amp; T_{camera_world} \end{bmatrix} \begin{bmatrix} x_{world} \ y_{world} \ z_{world} \ 1 \end{bmatrix}$$</p>
+<p>Transform world to frenet coordinate system is done by the following equation: $$\begin{bmatrix} s \ d \ \dot{s} \ \dot{d} \end{bmatrix} &#x3D; \begin{bmatrix} R_{frenet_world} &amp; T_{frenet_world} \end{bmatrix} \begin{bmatrix} x_{world} \ y_{world} \ z_{world} \ 1 \end{bmatrix}$$</p>
+<p>Transform camera to frenet coordinate system is done by the following equation: $$\begin{bmatrix} s \ d \ \dot{s} \ \dot{d} \end{bmatrix} &#x3D; \begin{bmatrix} R_{frenet_camera} &amp; T_{frenet_camera} \end{bmatrix} \begin{bmatrix} x_{camera} \ y_{camera} \ z_{camera} \ 1 \end{bmatrix}$$</p>
+<p>Transform frenet to world coordinate system is done by the following equation: $$\begin{bmatrix} x_{world} \ y_{world} \ z_{world} \end{bmatrix} &#x3D; \begin{bmatrix} R_{world_frenet} &amp; T_{world_frenet} \end{bmatrix} \begin{bmatrix} s \ d \ \dot{s} \ \dot{d} \end{bmatrix}$$</p>
+<p>A reference line is a line that is used to describe the road. It is commonly described by baze points.</p>
+<p>What is bazel curve? Spline wiki page is (<a href="https://en.wikipedia.org/wiki/Spline_(mathematics)">https://en.wikipedia.org/wiki/Spline_(mathematics)</a>). Spline is a curve that is used to interpolate the data points. The spline is a curve that is used to interpolate the data points. The spline is a curve that is used to interpolate the data points. The spline is a curve that is used to interpolate the data points.</p>
+<p>Following code snippet generates a vehicle dynamics based on PhysX API: </p>
+]]></content>
+      <categories>
+        <category>computer_science</category>
+      </categories>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/cpp_any_cast/</url>
+    <content><![CDATA[<p>any_cast doc: <a href="https://en.cppreference.com/w/cpp/utility/any/any_cast">https://en.cppreference.com/w/cpp/utility/any/any_cast</a></p>
+<p>This blog explains the <code>std::any_cast</code> behavior. The <code>std::any_cast</code> is a template function that casts <code>std::any</code> to a reference to the type <code>T</code> stored in the <code>std::any</code>. The <code>std::any_cast</code> function is used to retrieve the value stored in the <code>std::any</code> object. The <code>std::any_cast</code> function is a non-throwing function. If the <code>std::any</code> object does not contain a value of type <code>T</code>, the function returns a null pointer.</p>
+<p>Some examples are shown below:</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;any&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="comment">// explain the difference between auto&amp; and auto</span></span><br><span class="line">  <span class="keyword">auto</span> a1 = <span class="built_in">any</span>(<span class="number">12</span>);  <span class="comment">//necessary</span></span><br><span class="line">  a1 = <span class="built_in">string</span>(<span class="string">&quot;test&quot;</span>);</span><br><span class="line">  <span class="keyword">auto</span>&amp; s = <span class="built_in">any_cast</span>&lt;string&amp;&gt;(a1);</span><br><span class="line">  s[<span class="number">0</span>] = <span class="string">&quot;s&quot;</span>;</span><br><span class="line">  cout &lt;&lt; <span class="built_in">any_cast</span>&lt;string <span class="type">const</span>&amp;&gt;(a1) &lt;&lt; endl;   <span class="comment">// output sest</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;any&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">auto</span> a1 = <span class="built_in">any</span>(<span class="number">12</span>);  <span class="comment">//necessary</span></span><br><span class="line">  a1 = <span class="built_in">string</span>(<span class="string">&quot;test&quot;</span>);</span><br><span class="line">  <span class="keyword">auto</span> s = <span class="built_in">any_cast</span>&lt;string&gt;(a1);</span><br><span class="line">  s[<span class="number">0</span>] = <span class="string">&quot;s&quot;</span>;</span><br><span class="line">  cout &lt;&lt; <span class="built_in">any_cast</span>&lt;string <span class="type">const</span>&amp;&gt;(a1) &lt;&lt; endl;   <span class="comment">// output test</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;any&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cassert&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;memory&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test1</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> a1 = <span class="built_in">any</span>(<span class="number">12</span>);</span><br><span class="line">        a1 = <span class="built_in">string</span>(<span class="string">&quot;test&quot;</span>);</span><br><span class="line">        <span class="keyword">auto</span>&amp; ra = <span class="built_in">any_cast</span>&lt;string&amp;&gt;(a1);</span><br><span class="line">        ra[<span class="number">0</span>] = <span class="string">&#x27;s&#x27;</span>;</span><br><span class="line">        <span class="built_in">assert</span>(<span class="built_in">any_cast</span>&lt;string <span class="type">const</span>&amp;&gt;(a1) == <span class="string">&quot;sest&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test10</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> a1 = <span class="built_in">any</span>(<span class="number">12</span>);</span><br><span class="line">        a1 = <span class="built_in">string</span>(<span class="string">&quot;test&quot;</span>);</span><br><span class="line">        <span class="keyword">auto</span> ra = <span class="built_in">any_cast</span>&lt;string&gt;(a1);  <span class="comment">// cannot use auto&amp; if any_cast&lt;string&gt;, will compliation error</span></span><br><span class="line">        ra[<span class="number">0</span>] = <span class="string">&#x27;s&#x27;</span>;</span><br><span class="line">        <span class="built_in">assert</span>(<span class="built_in">any_cast</span>&lt;string <span class="type">const</span>&amp;&gt;(a1) == <span class="string">&quot;test&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test2</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        unordered_map&lt;string, any&gt; m;</span><br><span class="line">        m[<span class="string">&quot;s&quot;</span>] = <span class="built_in">string</span>(<span class="string">&quot;test&quot;</span>);</span><br><span class="line">        <span class="keyword">auto</span>&amp; ra = <span class="built_in">any_cast</span>&lt;string&amp;&gt;(m[<span class="string">&quot;s&quot;</span>]);</span><br><span class="line">        ra[<span class="number">0</span>] = <span class="string">&#x27;s&#x27;</span>;</span><br><span class="line">        <span class="built_in">assert</span>(<span class="built_in">any_cast</span>&lt;string <span class="type">const</span>&amp;&gt;(m[<span class="string">&quot;s&quot;</span>]) == <span class="string">&quot;sest&quot;</span>);</span><br><span class="line">        <span class="comment">//cout &lt;&lt; s &lt;&lt; endl;</span></span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="built_in">test1</span>();</span><br><span class="line">        <span class="built_in">test10</span>();</span><br><span class="line">        <span class="built_in">test2</span>();</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
     <title>EM Algorithm and Gaussian Mixture Model</title>
@@ -162,6 +201,19 @@
       </categories>
   </entry>
   <entry>
+    <title>Lead Lag Control</title>
+    <url>/lead_lag_control/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This is still a draft.<br>This blog explains the lead lag control. The lead lag control is a control system that combines the lead and lag control. The lead lag control is used to compensate for the time delay in the control system. The lead lag control is also used to compensate for the time delay in the control system. The lead lag control is also used to compensate for the time delay in the control system. The lead lag control is also used to compensate for the time delay in the control system.</p>
+<p>The main reference is <a href="https://www.controleng.com/articles/lead-lag-control/">Lead-Lag Control</a>.</p>
+<p>Before we start, we assume that the reader has basic knowledge of control system. If you are not familiar with the control system, please read <a href="https://en.wikipedia.org/wiki/Control_system">Control System</a> first. Also, model predictive control is a crucial part of the control system. If you are not familiar with the model predictive control, please read <a href="https://en.wikipedia.org/wiki/Model_predictive_control">Model Predictive Control</a> first.</p>
+<p>Now, let’s start.</p>
+<h1 id="Lead-Lag-Control"><a href="#Lead-Lag-Control" class="headerlink" title="Lead Lag Control"></a>Lead Lag Control</h1><p>The lead lag control is a control system that combines the lead and lag control. The lead lag control is used to compensate for the time delay in the control system. The lead lag control is also used to compensate for the time delay in the control system. The lead lag control is also used to compensate for the time delay in the control system. The lead lag control is also used to compensate for the time delay in the control system.</p>
+]]></content>
+      <categories>
+        <category>computer_science</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Linear Regression</title>
     <url>/linear_regression/</url>
     <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>temporary created in order to be referenced by other posts.</p>
@@ -169,6 +221,15 @@
 ]]></content>
       <categories>
         <category>machine_learning</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Model Reference Adaptive Control</title>
+    <url>/mrac_controller/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This is still a draft.<br><a href="https://www.mathworks.com/help/slcontrol/ug/model-reference-adaptive-control.html?searchHighlight=real&amp;s_tid=doc_srchtitle">https://www.mathworks.com/help/slcontrol/ug/model-reference-adaptive-control.html?searchHighlight=real&amp;s_tid=doc_srchtitle</a></p>
+]]></content>
+      <categories>
+        <category>computer_science</category>
       </categories>
   </entry>
   <entry>
@@ -264,15 +325,6 @@
       </categories>
   </entry>
   <entry>
-    <title>XML Schema</title>
-    <url>/xml_schema/</url>
-    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>still draft.</p>
-]]></content>
-      <categories>
-        <category>misc_tech_note</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Support Vector Machine</title>
     <url>/svm/</url>
     <content><![CDATA[<h1 id="Maximum-Hard-Margin-Classifier"><a href="#Maximum-Hard-Margin-Classifier" class="headerlink" title="Maximum(Hard) Margin Classifier"></a>Maximum(Hard) Margin Classifier</h1><p>Let us start from the simplest situation: 2-class classification problem using linear models with the form:<br>$$ \mathcal{y}(\mathbf{x}) &#x3D; \mathbf{w}^\top \mathbf{x} + b \label{eq:1}\tag{1}$$<br>The training set data comprises $N$ input vectors $\mathbf{x_1}$, …, $\mathbf{x_N}$, with corresponding labels $\mathcal{t}_1$, …, $\mathcal{t}_N$, where $\mathcal{t_n} \in \{-1, 1\}$.</p>
@@ -313,6 +365,15 @@
 ]]></content>
       <categories>
         <category>machine_learning</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>XML Schema</title>
+    <url>/xml_schema/</url>
+    <content><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>still draft.</p>
+]]></content>
+      <categories>
+        <category>misc_tech_note</category>
       </categories>
   </entry>
 </search>
